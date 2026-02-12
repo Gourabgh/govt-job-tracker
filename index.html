@@ -6,30 +6,34 @@
     <title>My Sarkari Naukri Tracker</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body { background-color: #f4f6f9; font-family: sans-serif; }
-        .header { background: #003366; color: white; padding: 30px 0; margin-bottom: 20px; }
+        body { background-color: #f0f2f5; font-family: 'Segoe UI', sans-serif; }
+        .header { background: #1a237e; color: white; padding: 40px 0; margin-bottom: 20px; }
         
-        /* State Buttons */
-        .nav-pills .nav-link { color: #555; background: #fff; border: 1px solid #ddd; margin-right: 10px; border-radius: 20px; }
-        .nav-pills .nav-link.active { background-color: #28a745; color: white; border-color: #28a745; }
+        /* Filter Buttons */
+        .nav-pills .nav-link { color: #555; background: white; border: 1px solid #ddd; margin: 0 5px; border-radius: 50px; padding: 8px 20px; }
+        .nav-pills .nav-link.active { background-color: #e65100; color: white; border-color: #e65100; font-weight: bold; }
         
-        /* District Buttons (Hidden by default) */
-        #district-filter { display: none; background: #e9ecef; padding: 10px; border-radius: 10px; margin-bottom: 20px; }
-        .btn-district { font-size: 0.9rem; margin: 2px; }
-        .btn-district.active { background-color: #0056b3; color: white; }
-
-        .job-card { border-left: 5px solid #ddd; transition: 0.2s; }
-        .job-card:hover { transform: translateY(-3px); }
-        .card-wb { border-left-color: #ffc107; } /* Yellow for WB jobs */
-        .card-india { border-left-color: #007bff; } /* Blue for All India */
+        /* Job Card Design */
+        .job-card { border: none; border-top: 4px solid #1a237e; border-radius: 10px; transition: 0.3s; background: white; }
+        .job-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+        .card-wb { border-top-color: #2e7d32; } /* Green for West Bengal */
+        
+        /* Date Badges */
+        .date-box { background: #f8f9fa; padding: 8px; border-radius: 5px; font-size: 0.85rem; border: 1px dashed #ccc; }
+        .date-label { font-weight: bold; display: block; color: #666; font-size: 0.75rem; text-transform: uppercase; }
+        .date-value { font-weight: bold; color: #333; }
+        
+        /* Action Button */
+        .btn-apply { background-color: #1a237e; color: white; border: none; border-radius: 5px; width: 100%; padding: 10px; font-weight: 600; }
+        .btn-apply:hover { background-color: #0d47a1; color: white; }
     </style>
 </head>
 <body>
 
     <div class="header text-center">
-        <h2>🇮🇳 Job Tracker</h2>
-        <p>State-wise & District-wise Filter</p>
-        <small id="last-updated" class="text-warning">Updating...</small>
+        <h2>🇮🇳 Government Job Tracker</h2>
+        <p>12th Pass | Defense | Railway | Official Only</p>
+        <span class="badge bg-warning text-dark" id="last-updated">Updating...</span>
     </div>
 
     <div class="container">
@@ -38,21 +42,18 @@
             <li class="nav-item"><a class="nav-link active" href="#" onclick="filterState('All India')">All India</a></li>
             <li class="nav-item"><a class="nav-link" href="#" onclick="filterState('West Bengal')">West Bengal</a></li>
             <li class="nav-item"><a class="nav-link" href="#" onclick="filterState('Delhi')">Delhi</a></li>
-            <li class="nav-item"><a class="nav-link" href="#" onclick="filterState('Maharashtra')">Maharashtra</a></li>
         </ul>
 
-        <div id="district-filter" class="text-center">
-            <strong>Select District: </strong>
-            <button class="btn btn-outline-secondary btn-sm btn-district active" onclick="filterDistrict('All WB')">All WB</button>
-            <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('Nadia')">Nadia</button>
-            <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('Kolkata')">Kolkata</button>
-            <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('Howrah')">Howrah</button>
-            <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('North 24 Parganas')">North 24 Pgs</button>
+        <div id="district-filter" class="text-center mb-4" style="display:none;">
+            <p class="small text-muted mb-2">Select District:</p>
+            <button class="btn btn-sm btn-outline-secondary active" onclick="filterDistrict('All WB')">All WB</button>
+            <button class="btn btn-sm btn-outline-secondary" onclick="filterDistrict('Nadia')">Nadia</button>
+            <button class="btn btn-sm btn-outline-secondary" onclick="filterDistrict('Kolkata')">Kolkata</button>
+            <button class="btn btn-sm btn-outline-secondary" onclick="filterDistrict('North 24 Parganas')">North 24 Pgs</button>
         </div>
 
-        <h4 class="mb-3 text-secondary">📢 Latest Jobs</h4>
-        <div id="job-container" class="row">
-            <div class="col-12 text-center"><div class="spinner-border"></div></div>
+        <div id="job-container" class="row g-4">
+            <div class="col-12 text-center"><div class="spinner-border text-primary"></div></div>
         </div>
     </div>
 
@@ -64,7 +65,6 @@
         fetch('jobs.json')
             .then(response => response.json())
             .then(data => {
-                // Combine active and upcoming for easier filtering
                 allJobs = [...data.active, ...data.upcoming];
                 document.getElementById('last-updated').innerText = "Last Updated: " + data.last_updated;
                 renderJobs();
@@ -72,27 +72,21 @@
 
         function filterState(state) {
             currentState = state;
-            
-            // Highlight Tab
             document.querySelectorAll('#state-tabs .nav-link').forEach(el => el.classList.remove('active'));
             event.target.classList.add('active');
-
-            // Show/Hide District Filter
+            
+            // Show District filter only for WB
             const distDiv = document.getElementById('district-filter');
-            if (state === 'West Bengal') {
-                distDiv.style.display = 'block';
-                currentDistrict = 'All WB'; // Reset district
-            } else {
-                distDiv.style.display = 'none';
-            }
+            distDiv.style.display = (state === 'West Bengal') ? 'block' : 'none';
+            if(state === 'West Bengal') currentDistrict = 'All WB'; // Reset district
+            
             renderJobs();
         }
 
         function filterDistrict(district) {
             currentDistrict = district;
-            // Highlight Button
-            document.querySelectorAll('.btn-district').forEach(el => el.classList.remove('active', 'btn-primary'));
-            event.target.classList.add('active', 'btn-primary');
+            document.querySelectorAll('#district-filter button').forEach(el => el.classList.remove('active', 'btn-secondary'));
+            event.target.classList.add('active', 'btn-secondary');
             renderJobs();
         }
 
@@ -101,11 +95,8 @@
             container.innerHTML = '';
 
             const filtered = allJobs.filter(job => {
-                // 1. Filter by State
-                if (currentState === 'All India') return true; // Show everything
+                if (currentState === 'All India') return true; 
                 if (job.state !== currentState) return false;
-
-                // 2. If West Bengal, Filter by District
                 if (currentState === 'West Bengal' && currentDistrict !== 'All WB') {
                     return job.district === currentDistrict;
                 }
@@ -113,26 +104,59 @@
             });
 
             if (filtered.length === 0) {
-                container.innerHTML = '<div class="alert alert-warning text-center">No jobs found for this filter.</div>';
+                container.innerHTML = '<div class="col-12 text-center mt-5"><div class="alert alert-warning">No jobs found for this filter today.</div></div>';
                 return;
             }
 
             filtered.forEach(job => {
-                const borderClass = job.state === 'West Bengal' ? 'card-wb' : 'card-india';
-                const card = `
-                    <div class="col-md-6 mb-3">
-                        <div class="card shadow-sm h-100 ${borderClass}">
-                            <div class="card-body">
-                                <span class="badge bg-secondary float-end">${job.state}</span>
-                                <h6 class="text-primary">${job.district !== 'All' ? job.district : ''}</h6>
-                                <h5 class="card-title fw-bold">${job.title}</h5>
-                                <small class="text-muted">${job.date.substring(0, 16)}</small>
-                                <a href="${job.link}" target="_blank" class="btn btn-outline-primary btn-sm w-100 mt-2">View</a>
+                // Formatting the dates nicely
+                let displayDate = new Date(job.date).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' });
+                if (displayDate === 'Invalid Date') displayDate = "Recent";
+
+                const cardClass = job.state === 'West Bengal' ? 'card-wb' : '';
+                
+                // Handling "Undefined" - If data is missing, fallback to empty string
+                const badgeState = job.state || "India";
+                const badgeDist = job.district && job.district !== 'All' ? `| ${job.district}` : '';
+
+                const html = `
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card job-card h-100 shadow-sm ${cardClass}">
+                            <div class="card-body d-flex flex-column">
+                                <div class="mb-2">
+                                    <span class="badge bg-light text-dark border">${badgeState} ${badgeDist}</span>
+                                    <span class="badge bg-info text-dark float-end">${job.source}</span>
+                                </div>
+                                
+                                <h5 class="card-title fw-bold text-dark mt-2">${job.title}</h5>
+                                
+                                <div class="row mt-auto pt-3">
+                                    <div class="col-6">
+                                        <div class="date-box text-center">
+                                            <span class="date-label">Notification Date</span>
+                                            <span class="date-value text-primary">${displayDate}</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="date-box text-center">
+                                            <span class="date-label">Last Date</span>
+                                            <span class="date-value text-danger">${job.end_date}</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <a href="${job.link}" target="_blank" class="btn btn-apply mt-3">
+                                    View Official Notice 
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right ms-2" viewBox="0 0 16 16">
+                                      <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                                      <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                                    </svg>
+                                </a>
                             </div>
                         </div>
                     </div>
                 `;
-                container.innerHTML += card;
+                container.innerHTML += html;
             });
         }
     </script>
