@@ -1,0 +1,34 @@
+name: Update Jobs
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Runs every hour
+  workflow_dispatch: # Allows manual button click
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install libraries
+        run: pip install -r requirements.txt
+
+      - name: Run Scraper
+        run: python scraper.py
+
+      - name: Save Data
+        run: |
+          git config --global user.name 'JobBot'
+          git config --global user.email 'bot@noreply.github.com'
+          git add jobs.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "New jobs found" && git push)
