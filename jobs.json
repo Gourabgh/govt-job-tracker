@@ -1,403 +1,1575 @@
 {
     "active": [
         {
+            "title": "Home | Staff Selection Commission | GoI - SSC",
+            "link": "https://news.google.com/rss/articles/CBMiNkFVX3lxTE9kY2xiV2tKcnJ5cGVJQWNNNTJ3VEFHN0lpLURRNUMtZkJPRHgzYl9sZUY2LXRHdw?oc=5",
+            "date": "Sat, 17 Feb 2024 19:40:30 GMT",
+            "source": "SSC",
+            "state": "All India",
+            "district": "All"
+        },
+        {
             "title": "Apply | Staff Selection Commission | GoI - ssc.nic.in",
             "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBnM0lENnhzc3JrWnpKd3B3RHJSUEdnbExwVGVPeFA0ZGEwMUV3djNzSjJ5ZXpENmxuMVExVi0yeEFJbl9rX0E?oc=5",
             "date": "Tue, 27 Feb 2024 08:00:00 GMT",
-            "source": "ssc.nic.in"
+            "source": "ssc.nic.in",
+            "state": "All India",
+            "district": "All"
         },
         {
             "title": "BSF - Current Recruitment Openings - BSF",
             "link": "https://news.google.com/rss/articles/CBMiPkFVX3lxTFBnWDEybGRnSjl6V3h3OFdQSElyZGdJWVl5RUVEYktJcFl2TVhHdnNWQUtrT1VjcDhwd0ZXUjVR?oc=5",
             "date": "Wed, 16 Nov 2016 19:17:34 GMT",
-            "source": "BSF"
+            "source": "BSF",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Staff Selection Commission - Southern Region (SSC SR), Chennai - STAFF SELECTION COMMISSION, Southern Region",
+            "link": "https://news.google.com/rss/articles/CBMiOEFVX3lxTE0xa2VjNlZXUmZvZjJGenZodEJpckE4NnlpZTBqQ18zV28xa0xvbVlmdkpleWRfTDlM?oc=5",
+            "date": "Thu, 10 Oct 2019 12:19:18 GMT",
+            "source": "STAFF SELECTION COMMISSION, Southern Region",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "NcsNewWebsite - NCS",
+            "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1qZEFOb2RoNVBmTldoamJ3TDNHUXdWSG5PWG53ZDBueEp4QS1nVHRnb0dicGRaWjJ1QndJZjk5NzlhcXQyNHdVYlRpOW5DZ19ma1E?oc=5",
+            "date": "Tue, 30 Sep 2025 17:14:13 GMT",
+            "source": "NCS",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Recruitment | CRPF - crpf.gov.in",
+            "link": "https://news.google.com/rss/articles/CBMiPkFVX3lxTFBtOWdGVHZna2xwYkhDeE9VTHp4NHljakF4Wkp2d1M0NzZTSndYMG9VZmVHWGJ3RDRFd2FrS0Zn?oc=5",
+            "date": "Mon, 27 Mar 2023 14:37:40 GMT",
+            "source": "crpf.gov.in",
+            "state": "All India",
+            "district": "All"
         },
         {
             "title": "Recruitment Notices - CBDT",
             "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA1YlY0Z0laSHZhWmNweUhqUHZlSW41ZDhTSHBzai1SM3VkSGY5ZVNnWkFER0ZtWWVIQTlQS0RSbWRTNWpDc0RDTVZjMGtFcmNMZFZEVVM1b0EyOVo2X2VNSnM2eUhxSF80M0xWTQ?oc=5",
             "date": "Thu, 19 Sep 2019 12:21:24 GMT",
-            "source": "CBDT"
+            "source": "CBDT",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Notices | Staff Selection Commission | GoI - ssc.nic.in",
+            "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBaZUlzRmdrMUhUTkF0bGQtX1phSEktVjY4aUNoeHJlUjMxVDNJM0NlNDBPNDZVbWpmMzNpR094T3hYeVNObGluag?oc=5",
+            "date": "Fri, 03 Aug 2018 23:50:53 GMT",
+            "source": "ssc.nic.in",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Staff Selection Commission Tentative Calendar of Examination for the Year 2026-2027 - SSC",
+            "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBUSkxWdWZYYVpQcTJKb1VFb1p3Y25xT2JZYVY0R2loWTd5SFVqUWMyNlQ1aE1XWlRVSjk4M2FSbkR0UGpZa3ItSnowOXU?oc=5",
+            "date": "Sat, 09 Mar 2024 06:46:31 GMT",
+            "source": "SSC",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Welcome to RRB, Jammu-Srinagar - RRB, Jammu-Srinagar",
+            "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE0xLWhLc0RyR2JIaXc4UlB3cFZnZkdpNk1RUHVlcFZES3NMTndReE9oRzdNTEFna3c4dHFHc0QwVG1Ddw?oc=5",
+            "date": "Fri, 27 May 2022 10:35:47 GMT",
+            "source": "RRB, Jammu-Srinagar",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Kolkata Police \u2013 Glorious Service Since 1856 - Kolkata Police",
+            "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5ld01IOHJSbUJNTjZIZ1g3NFBTTjR3UTU0OWQ5ejBxc044cHp4MXNMbGNFUWZZdkNYdTJ2VjJ6Wmh0OU0?oc=5",
+            "date": "Tue, 23 Aug 2022 14:04:57 GMT",
+            "source": "Kolkata Police",
+            "state": "West Bengal",
+            "district": "Kolkata"
+        },
+        {
+            "title": "Untitled - RRB Chennai",
+            "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUVBVY2hMU3Q3ZFE4dVprTExseV9XQmEyRDlCN2lWTFlQcTd3VXhNN3AxTjNzQXdfWjJLQ0ZPYzBVNHNrbGlJV1lHb3h1RHFVT1plbGxvWlN1eFF5R0NGeHd1SkJLQ2xHa2dfdXEtb1pJaTk2TEYwV0Fia19vYUdVZDV2ZXc0X2VBcVE?oc=5",
+            "date": "Thu, 01 Jan 2026 08:00:00 GMT",
+            "source": "RRB Chennai",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "RRB Kolkata - RRB Kolkata",
+            "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE4waTAxWVo4bVZQWU9IOHB5WGp2TEZPS2xVWGNVMkx6dDUxWTF6dS1XSUVpNHJqMWJsbk14RVh6emU3V2tr?oc=5",
+            "date": "Thu, 03 Dec 2020 06:10:53 GMT",
+            "source": "RRB Kolkata",
+            "state": "West Bengal",
+            "district": "Kolkata"
+        },
+        {
+            "title": "111 - Rajasthan Recruitment Portal",
+            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9Jc2tnczF5bVh3RzNOeGdIQUFLTXBWdnpDeGdOaHVmbFh1NHlJTkRfZzhXcVVlcktfaU03aWFDN250bEZlSjlSWkQzUXRvZU5rNTNIZ19IVFFBeDRnSFVBU0xWUEFmRmttQnBhNV80WmU?oc=5",
+            "date": "Sat, 29 Apr 2023 05:18:10 GMT",
+            "source": "Rajasthan Recruitment Portal",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Chairman Haryana Staff Selection Commission - Hssc.gov.in",
+            "link": "https://news.google.com/rss/articles/CBMiN0FVX3lxTE90eU9LajJiYVJ5ZF9Wa0hYMnYxbHptNUQ2aXRNUFQydFZSX1BVbFFfVDV4czMyaGc?oc=5",
+            "date": "Wed, 21 Aug 2019 23:49:21 GMT",
+            "source": "Hssc.gov.in",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "RRB :: Railway Recruitment Board Ranchi - RRB Ranchi",
+            "link": "https://news.google.com/rss/articles/CBMiPkFVX3lxTFBwWDZac09oNFVwWXhWN1ZvUGdBb01tUkwtREtIOWM1ZFg2aDUxOFpBZXNPdjZUamg0YjZXQVln?oc=5",
+            "date": "Wed, 30 Sep 2020 12:52:50 GMT",
+            "source": "RRB Ranchi",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Vacancies - Ministry of Home Affairs",
+            "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE51eWc0NndPbVZKZ2tXQ1VORjJwaTU0b1NrS1JSRE00dENUZTNDMm5JamRnSkR0cTd6VGlKcmVqU3pueWgyZHJmTDQyM250djJEZU54Sk9mNmxId09NSVE?oc=5",
+            "date": "Tue, 03 Jan 2023 16:59:00 GMT",
+            "source": "Ministry of Home Affairs",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "RRB PATNA - RRB PATNA",
+            "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9NdnV6Z1JsOGVObklpZGVyMUlfNkxiTFJrSHVLR1lscUc0NnBuZ0pNNENUNktDcGN1RnVYb09hMm5sUQ?oc=5",
+            "date": "Sat, 23 Feb 2019 08:38:49 GMT",
+            "source": "RRB PATNA",
+            "state": "All India",
+            "district": "All"
         },
         {
             "title": "GOVERNMENT OF INDIA MINISTRY OF RAILWAYS RAILWAY RECRUITMENT BOARDS - RRB Ajmer",
             "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVHBvMllTczJmRVM1Rm92OVpxUFBCcEFEYUo1X281blV6dUFIRllvRjFVNXpYeWR3ay01TEJoUWZIM2xSR2xKOENKekt3T0RwU3FzU09Yd0JOZ2FBZzRNNFNkZ2JqNkRreF9CdS0wdWNOY2RGVVJpYl9yVmprcXR1Q0RYLU1MTXhSdnVIaUVOTU9paVhKM1gzTjdMMW9rTzZFNmtrQ0FzMHFEeHgtWjlDWHgwbkxUQ0JERnA1UEd2UQ?oc=5",
             "date": "Fri, 30 Jan 2026 08:00:00 GMT",
-            "source": "RRB Ajmer"
+            "source": "RRB Ajmer",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "UPSSSC Lekhpal Apply online - upsssc.gov.in",
-            "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5nZ3lvdkd5ZU1haXlvdHg5WGZycUFTWm9rRUFGYlNDOHdWaUs4OFBuOFdoNlFpS2s1a3NKMjFtZjJDSFpXQjF6djBkMXc3NUNkTGxFTFBB?oc=5",
-            "date": "Fri, 15 Dec 2023 03:27:47 GMT",
-            "source": "upsssc.gov.in"
+            "title": "CSBC Website - CSBC",
+            "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE8tbndiUnpVa3NhTURYYWtWTFRuNTFxTm9GSktEbUE5SzFMRURHT24zMXRfTWphLVpxaldUbmxfWQ?oc=5",
+            "date": "Sun, 27 Oct 2024 15:43:52 GMT",
+            "source": "CSBC",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "GSSSB Recruitment Apply online - OJAS - Gujarat State Portal - ojas.gujarat.gov.in",
-            "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBKUkRKOVE3blZ2YXV6dUNLTU55UHJjZmxWd1BIVzM3emh0UHVfWkhndG5jZHdYWXBfZHRGR2Z0dEE3d1Zia0Z2WndKSW5hVm9zOW9oV2lnRFQ4Q2UzamxSZnp2UWJ1S2N0UElV?oc=5",
-            "date": "Fri, 12 Feb 2016 08:06:42 GMT",
-            "source": "ojas.gujarat.gov.in"
+            "title": "Advt. No. 02/2026 HARYANA STAFF SELECTION COMMISSION BAYS NO.67-70, SECTOR-2, PANCHKULA \u2013 134151 Website www.hssc.gov.in ADVER - Hssc.gov.in",
+            "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMlhKdlFleTZyR2hEa05kd1pGeUpSS1F2N3g1eXVoc1VhSWpQd3RKeDR3UzNVcjBteS1EVjNNV2hhTXhycWJPNEw2a2kyYUYyMWFfM1dNNjZUd09Ud0ZIQlB4MEJDb2NQM080OWN2Z1ZBQWs3N2tMWUN0SlpZVkV6OWt3?oc=5",
+            "date": "Fri, 09 Jan 2026 08:00:00 GMT",
+            "source": "Hssc.gov.in",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "Government of India Ministry of Railways Railway Recruitment Boards CEN No. 05/2025 - RRB Ranchi",
-            "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYU1GMEpCV2VmRTlhdnlKZGJJNEwyaDBmeHcwVnFpSWRCdzI5VV9ncjUzQ3diTmszd2h1ZWp1ZzVuWVVuSVZRQUpEUVVUR2hHVHZ6VnJLdTZxVTU1enpWeEw3cEVsVk1aaEh2VTR5SUU5QjJVMl9QQ0lVdGsycWR0OHhzd1dSSDc4d3RudVIybmp0Zw?oc=5",
-            "date": "Sun, 30 Nov 2025 08:00:00 GMT",
-            "source": "RRB Ranchi"
+            "title": "ANDHRA PRADESH PUBLIC SERVICE COMMISSION - Andhra Pradesh Public Service Commission",
+            "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5WTlBMWUdlUmNhZmJicThFTDYya1lfT3dtcUhGMVB1YlRscGw0Zk1SWlA1MWp4VG1LSFkzekpVZkZxWHM?oc=5",
+            "date": "Sat, 13 Jan 2024 08:59:51 GMT",
+            "source": "Andhra Pradesh Public Service Commission",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "Assam Rifles Sports Quota Recruitment 2026 Apply Online - Assam Rifles-Official Website",
-            "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBQOFlBQ1ZYX2dYQ3AzQ2JoejVGOU5tMTBBWDNhRmlEbERlRVZVYzlGVVZPUlVMdUktMWs5eXlLLVhFMlBWMWFCTS1ieW1vcHhiOFRVMW9VZjNHYmFzdVUwb2xnTQ?oc=5",
-            "date": "Sat, 15 Dec 2018 06:01:49 GMT",
-            "source": "Assam Rifles-Official Website"
+            "title": "India Post - India Post",
+            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1lemhNNHplbmtOTHFCMjhSSURfYWZPd29hRUNQU09STXVCZUc0RUVsb3Y3STc4VTc0dVB6T2RjOFRVeGxtU1l1RVdqei1meVE?oc=5",
+            "date": "Mon, 04 Aug 2025 03:44:04 GMT",
+            "source": "India Post",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "RAILWAY RECRUITMENT BOARD, BHOPAL - RRB Bhopal",
+            "link": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE5TZGg5N2Q2MURCcGFrVE5mcHZCSUFWV09FLVVOWnBjclg4NS1RcXJQcmVxQ2UxT25QZW1XZEd3?oc=5",
+            "date": "Wed, 11 Aug 2021 11:17:28 GMT",
+            "source": "RRB Bhopal",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Haryana Kaushal Rozgar Nigam - hkrnl.itiharyana.gov.in",
+            "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCY2RZVjRjaEZZV2ZYcEROUHJ0d0JfSW9IbjdNOXJMWXFJYzVvcWZpWEtCcUNGaTY2OFBtYmpyU2FQaFVHMXM2WWR2aWhBU08ybG5MWQ?oc=5",
+            "date": "Sun, 14 May 2023 10:19:16 GMT",
+            "source": "hkrnl.itiharyana.gov.in",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "WEST BENGAL POLICE - West Bengal Police",
+            "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE1yZnFXeVc3Y1BrM2R1YTZaOHRQQmNaNjA2Y1FBMTBnOFB6Y0lJWUNzdTR2cnIxLV9McjI3Mw?oc=5",
+            "date": "Thu, 09 Sep 2021 11:58:49 GMT",
+            "source": "West Bengal Police",
+            "state": "West Bengal",
+            "district": "All WB"
+        },
+        {
+            "title": "File No. HQ-RHQS015/1/2024-RHQ Government of India Ministry of Personnel, Public Grievances & Pensions, Department of Personnel & Training Staff Selection Commission - SSC KKR",
+            "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE00a25Lb0V6NHhzYWYzUXVqM05Hd2NuMG0yelBmRDJiX3QwMUdYTTdocHR2UUQwdjlHTXEzTTZFS3Rjci00YVFRckxOZGcwNkJzV1lwWkR2ZVFTanZsdUJscDhwMmtfZ0tUSVNGczRKREtzYmxDemNDNGR3?oc=5",
+            "date": "Mon, 26 Feb 2024 08:00:00 GMT",
+            "source": "SSC KKR",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Vacancies - ccras",
+            "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5aT21RVHFHR2tiS1RobEhCVlBwMVBUTmYwS1UwSGhTS2U5ekQzVzVWbC1sb2RRR3J2cHVJcmpVN1gtdG9tMFE?oc=5",
+            "date": "Fri, 19 Jul 2024 16:14:47 GMT",
+            "source": "ccras",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Untitled - RRB Ranchi",
+            "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQN0VQNWF6LVp0cG53eGdGRWdvM00yUnR1U2FqeXZIQWMxaG9zelBrb0NxMWtUM3RDN21yUWQ0OWdQSXJBbVUtYnlSSThKZmFyX3VfcVN0THFNLThWMGxONEFRd0F3MjR5ZmRoZ2xFRENHVWpFbkZMcGFmSGZBeVZmR1R2OUEzU25oMnRIRk8yelA0Zw?oc=5",
+            "date": "Tue, 21 Jan 2025 07:29:04 GMT",
+            "source": "RRB Ranchi",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Vacancies | Defence Research and Development Organisation - DRDO",
+            "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE0zdVhiWWt1TjlOMWFlQjcza3BxVEwtQ3VGcjNWVDMyXzBkQTFOYXNMTjlzeWtRSS1WV09TTEdjR2hWVXVkMkRORlpnYVpLcjhaMy1yZ3Vhbw?oc=5",
+            "date": "Thu, 08 Jan 2026 16:29:59 GMT",
+            "source": "DRDO",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Advertisement/ Corrigendum - Haryana Public Service Commission",
+            "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1PMzdHeTdPcXhPOXJSM2xtZzdJN1JkMnBlYW5mTnh6OGk3QVVleDBSWEdJS1N3NHRiRVZxa1Z0VldEVFJoOHFQTkFHeklXZw?oc=5",
+            "date": "Tue, 27 Aug 2019 14:14:31 GMT",
+            "source": "Haryana Public Service Commission",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Ministry of Railways - Indianrailways.gov.in",
+            "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1fd01OODR3cjBPRVNkTXBYdjhOZ3R6c1ZIRHhfTmxTUkFLWWJkbmNDVVZLMHpSYUZTS1ZRTmV0SnUwMzlNc0VuVQ?oc=5",
+            "date": "Sun, 17 Feb 2008 19:02:45 GMT",
+            "source": "Indianrailways.gov.in",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Careers - isro.gov.in",
+            "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5VNFAxcncxT0dqUkxZUS1uWDkxVTl1TUMwLVhJSVRFU0lXRHhKbzdnRkVackM0OGdlSUF5SElDbEZFMXlWVTJ1SkFaSjQ?oc=5",
+            "date": "Wed, 28 Sep 2022 14:52:13 GMT",
+            "source": "isro.gov.in",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "NOTICE - SSC",
+            "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMGtLSnhUbUpJdjNoUGx1OTBLd3hlOVdKd0NqUm9ZWkhHaGZpYUtrclBCVFJXQnVsRXBoZzhZZDNHZXpSa2ZnUl9Fb2U4Vk02WHNTdE44eDl0blhNWXlscTlPM2NLTmdDbFYtMG5uc3EyOHZiZTJsUVhxNU1SOEx3YnNrTTlwVzdNVHZlLU13ZTN2Yms?oc=5",
+            "date": "Mon, 02 Jun 2025 07:00:00 GMT",
+            "source": "SSC",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Eastern Railway - Eastern Railway",
+            "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE51M1h6LWxJNlRHcWdyVE9Gb2FpRUVUVkNsVHJMMk5ZLThXbDJJanh3T2YtU0ZOX3piX19oTUpER2ppdEdJV1BaRA?oc=5",
+            "date": "Tue, 26 Feb 2019 13:28:10 GMT",
+            "source": "Eastern Railway",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Job Openings - Delhi High Court",
+            "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5Z3RMbWpQclpXZmdobXYxUTNnb0tUWWw1dUxiS19adWFlUEVzelNuTVFyQVlVVkpOUXZWR25VY20yWWhxVEJId3BBaTRhVGYwOVRpbnc0cnF1Zw?oc=5",
+            "date": "Mon, 28 Apr 2025 06:33:58 GMT",
+            "source": "Delhi High Court",
+            "state": "Delhi",
+            "district": "All"
+        },
+        {
+            "title": "NCERT - NCERT",
+            "link": "https://news.google.com/rss/articles/CBMiOEFVX3lxTE1MRU10b3I1bHEtMjZEQUo3d1NBRnEwTXp1amNnWW5LREl6bnJSbDl2VnZkRDc0ZWN4?oc=5",
+            "date": "Tue, 28 Jul 2020 11:19:40 GMT",
+            "source": "NCERT",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "CCRAS Home - Central Council for Research in Ayurvedic Sciences - ccras",
+            "link": "https://news.google.com/rss/articles/CBMiOEFVX3lxTE9ZV0JxaTBlbDZ3T3NPLXlqcG9yandsTDlpSXpVRTVxRFdOWkxDTTRXbWZCUkZTX2F1?oc=5",
+            "date": "Fri, 19 Jul 2024 12:45:59 GMT",
+            "source": "ccras",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Home | Delhi Subordinate Services Selection Board - Government of National Capital Territory of Delhi",
+            "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE83WE1pUm94UVB6c25Zd0RRYzVFbVlhd2t1aVVrd2ZEQkxhRzZzTXBmUTFSQWZBZXdkVU9VbnhNUWM?oc=5",
+            "date": "Mon, 02 Dec 2019 19:50:47 GMT",
+            "source": "Government of National Capital Territory of Delhi",
+            "state": "Delhi",
+            "district": "All"
+        },
+        {
+            "title": "Recruitment - raipur.gov.in",
+            "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjUlVaeFEyN1E3Y1JYTEdXMXM4YjltOGQ4Rk81Zjl2NGdadzAxWUtjcURxWnVod2RmN1FIMEZEaE96c1Rfb1R3TGdaWEN6cFd0bDd0TFNqSUFBSGNhUnVxZ04xUQ?oc=5",
+            "date": "Wed, 27 Dec 2023 11:29:41 GMT",
+            "source": "raipur.gov.in",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "RRB AJMER | Railway Recruitment Board - RRB Ajmer",
+            "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE4ydkZPai1lcFQxM3AyUGdyY2Nud2lsNl9mS2tCTWZOLWtmWWpkQldHUGFFb1l2Sk1kVFNpYQ?oc=5",
+            "date": "Thu, 24 Nov 2022 13:21:54 GMT",
+            "source": "RRB Ajmer",
+            "state": "All India",
+            "district": "All"
         },
         {
             "title": "Railway Recruitment Board- Thiruvananthapuram | Owned and Operated by the Government of India Through the Ministry of Railways - rrbthiruvananthapuram.gov.in",
             "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE01XzdIX3ZBU1BJTWdsOWYwbUlTMEU1MzNlSEw2cUlOZlY5WHlBRkZwVTVucGFLT3d1cDVHUUdwazRDcHgzNU1YMkpBNElSZi04UGdz?oc=5",
             "date": "Fri, 24 May 2019 16:59:59 GMT",
-            "source": "rrbthiruvananthapuram.gov.in"
+            "source": "rrbthiruvananthapuram.gov.in",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Home | Staff Selection Commission | GoI - SSC(NR)",
+            "link": "https://news.google.com/rss/articles/CBMiOEFVX3lxTE4zMW1UaldKQXNMNUNxbkswY2x3SDl4MDFjZHRqdG1PU2hVMm5vVktlbUNyVjRodlI3?oc=5",
+            "date": "Sun, 11 Jul 2021 23:22:14 GMT",
+            "source": "SSC(NR)",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Jkssb - Jkssb",
+            "link": "https://news.google.com/rss/articles/CBMiN0FVX3lxTE9ueFFXNzFUNV85cXIxNjRQRldpdE91OTBfNXZ0UmxYdlNqMnF0a0VtVlFXM3JlbG8?oc=5",
+            "date": "Mon, 09 Feb 2009 06:03:31 GMT",
+            "source": "Jkssb",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "DSSSB Vacancies | Delhi Subordinate Services Selection Board - Government of National Capital Territory of Delhi",
+            "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1FZk1CZ2ZNZEtVamFMRnlfM0ZfOWdKY0ZNWXVfbFNpeHluTWhIbHJiWlZROE85REVpenpieDN2OWxBMUV6S2NhRGplRXZEaWtxeXIwSw?oc=5",
+            "date": "Mon, 24 Apr 2023 17:05:58 GMT",
+            "source": "Government of National Capital Territory of Delhi",
+            "state": "Delhi",
+            "district": "All"
+        },
+        {
+            "title": "HOME | Defence Research and Development Organisation - DRDO, Ministry of Defence, Government of India - DRDO",
+            "link": "https://news.google.com/rss/articles/CBMiN0FVX3lxTFBaMjFVc1pEZGhDTkQyVFU5NE5wWkRMdjdUR0ZVUkhSaFg4eTh2d3BzR29mVHpKSUE?oc=5",
+            "date": "Wed, 31 May 2017 03:58:16 GMT",
+            "source": "DRDO",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Odisha Staff Selection Commission (OSSC) - OSSC",
+            "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTFAtUUtCM3V5WkJENy1wV0Z6d0liVmkyeXU3WklfbHp2NkEzNjRKZC1ZUmgyS1VCT09zSDBaeg?oc=5",
+            "date": "Thu, 22 Oct 2020 03:35:18 GMT",
+            "source": "OSSC",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Notifications/Recruitment | KVS - kendriya Vidyalaya Sangathan",
+            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jUWJtcUNLTVAzWmU4TEJkMFdVYnZnVnBTMGVMY1ljelFVUkt5dHg5cGxTTlVTdlRDZ09FNm95S0Mzci1saVFKSTBXYTdKRExGdVRpRHV4YzJUb3c?oc=5",
+            "date": "Wed, 09 Oct 2024 06:05:45 GMT",
+            "source": "kendriya Vidyalaya Sangathan",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "North Eastern Railway - North Eastern Railway",
+            "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBSY0xsQ1N1Z1NOdDR0WDNkdjFnbTFqMDZBbGYzekhYNVFBblo2UDJoUFBDT0o1NEZTOXotUG5oQWFOVHZLcVFYb3N3?oc=5",
+            "date": "Tue, 26 Feb 2019 14:08:08 GMT",
+            "source": "North Eastern Railway",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Welcome to Railway Recruitment Board Bhubaneswar - Railway Recruitment Board, Bhubaneswar",
+            "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE85a0F4eDZUbkN1Z1BDRFF4OV93RmNUaFRReGFhM1pFUTlHSDBLUGhVeDJKRE9HOGdHWllPQnJCOA?oc=5",
+            "date": "Thu, 27 Feb 2020 01:02:37 GMT",
+            "source": "Railway Recruitment Board, Bhubaneswar",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Orissa High Court, Cuttack - Orissa High Court",
+            "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1laDMwRFZYV1lzOUFxU3YtYXBOcU51VkFfT2lveXBFakRBTDlYYTBaMHRWaE9lM0JZMEp6bExHZnp0WUJqYUpQU2hfMA?oc=5",
+            "date": "Fri, 20 Dec 2019 20:15:30 GMT",
+            "source": "Orissa High Court",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Welcome to Recruitment Portal - Government of Jharkhand",
+            "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1YWEtDWG9wbU0yX3pjckk2RDZDMWlGNVh1bUdNU0tyUVZpZHkwRjlpU0lsVmF4XzF3YTVwaWlFYnpMT0FGZ1Y3Z1VHVnJ4QQ?oc=5",
+            "date": "Sat, 10 Apr 2021 09:50:25 GMT",
+            "source": "Government of Jharkhand",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "West Bengal Health Recruitment Board - WEST BENGAL HEALTH RECRUITMENT BOARD",
+            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBTUmNDbHhjNmktd0VrQXUxXzJwNDJPZFFEc0NybXFjOWc4MHdHUHBMUndJZHV6TEJwSmRCd1l6WUtwMkRNVWliZTl6YUNtTmthY0NaTVg2WUtwUGlldmRndnBnalNtM3pHS2c?oc=5",
+            "date": "Thu, 07 Aug 2025 07:00:00 GMT",
+            "source": "WEST BENGAL HEALTH RECRUITMENT BOARD",
+            "state": "West Bengal",
+            "district": "All WB"
+        },
+        {
+            "title": "AIIMS Bhubaneswar - AIIMS Bhubaneswar",
+            "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE12VHc0VlJJSVFUcTI5RERqT0M0Tkltc3NUbjZZc1FHZV9uVmZGZjdpX2JnMXJWOFBnNHJhYjI0UTUxc1IzSzVv?oc=5",
+            "date": "Thu, 30 Aug 2018 04:43:06 GMT",
+            "source": "AIIMS Bhubaneswar",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Home | Apprenticeship Training Portal - Apprenticeship",
+            "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA5OEZDUURnRm0zNlExV0J4Vkx2aFlXZTlfQmRrWE94UlNibUtoSzlkcldxQi04MDVKbUxVZV81NldvN0ptTmc4dHNyZHNHRDZY?oc=5",
+            "date": "Fri, 08 Oct 2021 19:00:04 GMT",
+            "source": "Apprenticeship",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Government of Punjab, India - Government of Punjab, India",
+            "link": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE4zdW5fcl9hNzJTRU5fcHY1MlVMRFNqLTNUeUxpb2M4MkZlaXNrQ09xQzNZZlFPd1NhcUE?oc=5",
+            "date": "Sun, 02 Oct 2011 17:00:44 GMT",
+            "source": "Government of Punjab, India",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Ministry of Railways (Railway Board) (indianrailways.gov.in) - Indianrailways.gov.in",
+            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1NUmJWNkJhT0phTTU4UG9UTVF3cjI4UFg5azNpdlh6bWVPSEdDMnh0WXFnb2lVSTBENE1yS3llWDRRQTlfVl8tUWJocXN4bHNEanpHNkduNFoxVUk?oc=5",
+            "date": "Mon, 24 Feb 2020 01:30:55 GMT",
+            "source": "Indianrailways.gov.in",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Recruitment Notices - dvc.gov.in",
+            "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBEaFEtZmZVdWt6WUl0Y09jOThqcHJxLXVCUVlFQ0VxaFRHZ1RKMnl2Uk8xa3Y5VVMxY2g3TkRjNTBkXzNMYkhqV2QxaHg2NllXQVNobXdKd3NTTGlBT1BB?oc=5",
+            "date": "Thu, 16 Mar 2023 10:08:44 GMT",
+            "source": "dvc.gov.in",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Online Scholarship - Higher Technical and Medical Education Rajasthan",
+            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1pQVppMXFubVpBSkhBdDhOc1pHb0dGVHBKcExWNjQ3UDR0N3VyOTlINS16YllYR1ptRGpRZ0NqNk83ZXA1cWxTTXhKamVsU3RmVjBkN1p1aC1Rb28?oc=5",
+            "date": "Sat, 27 Nov 2021 06:57:02 GMT",
+            "source": "Higher Technical and Medical Education Rajasthan",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "REGULAR MAZDOOR RECRUITMENT EXAMINATION, 2025 ADVERTISEMENT Advertisement No. - Patna High Court",
+            "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9sekZ4UE1ZY1F4V3NUZWRqelBYMXNGUjBSTnJvX25uajJaaUZEb21PQjdkQlVkdk1LOENsUVNPdFBmX2tnNjN4ek5LYi1zOWl0WUdVY2M3cmt1OHB3bUFrNHJkVFlYR1hBWWZF?oc=5",
+            "date": "Mon, 17 Feb 2025 08:00:00 GMT",
+            "source": "Patna High Court",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "PwD Candidate Registration - Department of Empowerment of Persons with Disabilities (DEPwD)",
+            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9oQkp3NG9GVmQ0X3pxYlJjbnVNblo5Nl81UzQ5WlUxcGlUTXVMREhEMThFc0JmOHFfaEJVbWRoenFBTnVuQklzOTItaDVmeUtGa0N0R29fZlhQZ1A2T0hPbUx1X0xoSHZFVHBOTWw5bHo?oc=5",
+            "date": "Tue, 03 Feb 2026 08:00:00 GMT",
+            "source": "Department of Empowerment of Persons with Disabilities (DEPwD)",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "OTR - One Time Registration - e-Pariksha | Home Page",
+            "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9VSDQ2SVEzaWNrYmE2SWw5RTZwT19hcUlSU3JDMEMyTXJSak5pYTNISXZQQWU0cXFGVGwyUFhGU0hQUWpDYjlLVWpnaVRIRzRHTFByMTdZeVMxa25aTmFNVWJhV2l0dG9ZUW1fVWxUU3pTdmI3U3RXZ3U5Yw?oc=5",
+            "date": "Tue, 03 Jan 2023 09:49:50 GMT",
+            "source": "e-Pariksha | Home Page",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "High Court of Himachal Pradesh - HP High Court",
+            "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE0xaW1LWjFSTmd5RmpSNXc5N1c1OVltdkV6eEdIZ1ZIZzlfQUdpQ01wY0xNdzRjZW5YMjBqZHhMaFBPZw?oc=5",
+            "date": "Sat, 25 May 2019 12:05:32 GMT",
+            "source": "HP High Court",
+            "state": "All India",
+            "district": "All"
         },
         {
             "title": "Recruitments - Andhra Pradesh State Road Transport Corporation (APSRTC)",
             "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE11TFBYN2NvUGh6Nm1KZ01zVU5ZRF9pMmx0REd5YmQ4WGRVTzNQMmxlWlRVZnAtWkl5ajl2VkRaeE1UQnVXcGhJVnB1aHdadVN1Z21uLURWMHA?oc=5",
             "date": "Mon, 30 Sep 2019 11:11:15 GMT",
-            "source": "Andhra Pradesh State Road Transport Corporation (APSRTC)"
+            "source": "Andhra Pradesh State Road Transport Corporation (APSRTC)",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "Recruitment to the posts of Scientist/Engineer 'SD' and Scientist/Engineer 'SC' - isro.gov.in",
-            "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE52OEE5UWR2cUtFZUhqVldFMS0yNGtIRUFpYXNBUzFwYXkzSEhuYXZ6NHF5dXZxS1d1YWJXOUozUVNMN1U1SkRKQjNJUkVhdHNETDBoOExOa28?oc=5",
-            "date": "Thu, 22 Jan 2026 08:00:00 GMT",
-            "source": "isro.gov.in"
+            "title": "1 KENDRIYA VIDYALAYA SANGATHAN & NAVODAYA VIDYALAYA SAMITI (Autonomous Organizations under Ministry of Education) Department - S3WaaS",
+            "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWkIyclYwZjB4WEhWVEtRT2lyOUh2MUx6U0NVLUZjR3lzMG9ZaHNhTi1STE5VM1ByRHpBNXg0Ym5zVTg4Um9Md204ODFTMldqSkpmQmhWeG1tUHc5dTVhZlBwM1BpNWlvTmpQM1ZFT0tNVV9Xb0lBaUEzQzY5NFhjdFpLNHFueDFYbVZia3UySXNkcGEza0VhOWkydw?oc=5",
+            "date": "Thu, 13 Nov 2025 08:00:00 GMT",
+            "source": "S3WaaS",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "Recruitment - Samastipur",
-            "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE41cVpETlVnZnpEMEs5eDl6enNwbmRnam1rYUFLYzF1SEdHNDQ1NEQ3VzJiOFZBYjZYQkpaa1RuMGY1VEdrZkdzcVhtc0xEOGlyU0IzZEZuZlF5N1lUa0lSUUUzcy0?oc=5",
-            "date": "Mon, 16 Jul 2018 17:55:27 GMT",
-            "source": "Samastipur"
+            "title": "Home Page - Inspire - Inspire",
+            "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9WU1FONmNoN0xxOTMzNFo5aUJZcHBYdXdjbENEU21WQzVabjdmamlxck5RSnduTEtLUXhUU005SjJPN2NY?oc=5",
+            "date": "Sat, 19 Jul 2014 17:37:18 GMT",
+            "source": "Inspire",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "Recruitment - jashpur",
-            "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RbTFHTTBtM1BHQ2g2Ul9rZlFMYWhaSXJaWkhITTZQeFYzV2pRVGExR191QkVua0dKVkpOUDBMeVlFWTRSYWNIbWlYZjQwR2JKZUFnWlVnaFRRU2s3X1R5VXVaOGg?oc=5",
-            "date": "Fri, 06 Feb 2026 15:00:00 GMT",
-            "source": "jashpur"
+            "title": "Department of Higher Education - Education.Gov.in",
+            "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5KQkNQNnhHVU03Zm1RTU12WTRhY3FtNzlKTHhXQkRnVElmNjBZWWZNd2s5Y19SR0lRdWNYbjN2VndjTm5lblloYmVxdUp6azhHY2RmSE0tcmNkMFFZ?oc=5",
+            "date": "Fri, 06 Nov 2020 06:11:30 GMT",
+            "source": "Education.Gov.in",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "Recruitment - Tirunelveli District",
-            "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBnZXVmZTV1WGU0REJ2OFZGblJ2TkxBcUJHVUJ6c05tNG5KSXFaY0huVWhUQkVEQTJJMkNhOEFUelNhQ0owYzVWSXNfQldiM21VYUtzYl9yWk45al9NODF6RjNMV2ppdw?oc=5",
-            "date": "Fri, 06 Jul 2018 06:58:31 GMT",
-            "source": "Tirunelveli District"
+            "title": "Supreme Court of India | India - Supreme Court of India",
+            "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5jbFlFUjZkWEVaLXhMR0VMUDNpVTdZMnFZNmwwbEdnY3VVZnhLcHRCYU9kZXVRQUR5UmJ3?oc=5",
+            "date": "Thu, 03 May 2018 14:04:13 GMT",
+            "source": "Supreme Court of India",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "Recruitment - Surajpur",
-            "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9UWk10RzNPSnJoeU9reUx2bUtQbHYzcXBLT2dYRHdtdktvbHpTQlQwM1NPMFJudTh6UFdDaVZVaTVqeDJRTjA5d0dtNXpqZFo3NkI4ZEJHLUsyR3FrYXZJUXVxUm1qdw?oc=5",
-            "date": "Sat, 05 Jan 2019 09:53:37 GMT",
-            "source": "Surajpur"
+            "title": "Home - Ministry of Home Affairs",
+            "link": "https://news.google.com/rss/articles/CBMiPkFVX3lxTFBxQWNfZTdQbVdtQ05VZ0lMYkJpZkZfRHI5NE16RmkzWVJvYmNpRUJ5UjRRNktRUnFCVWRvM1Zn?oc=5",
+            "date": "Mon, 02 Jan 2023 11:02:34 GMT",
+            "source": "Ministry of Home Affairs",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "National Career Service | Ministry of Labour & Employment - NCS",
+            "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9pSGNIRHdYaXluT2dQM1d0VERxWjhuSHg5ZkRKNUpFMUpEWFNnUjNMQldLNWpMcVVBTWtJ?oc=5",
+            "date": "Fri, 24 Jun 2016 20:04:16 GMT",
+            "source": "NCS",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Recruitment - Salem District",
+            "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBGNDFTU3oyeWlndVBlcV9DOC1Mc1BoOHM5TUw5MXp5cjRFbXpkVGdmcWExRVdLVWd1aTFvVGpQN1lLU2xPdUNmTzAxcW9XWHA3THB6djR6dFZjTnhYdXc?oc=5",
+            "date": "Thu, 08 Feb 2018 13:58:32 GMT",
+            "source": "Salem District",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Candidate Registration - Department of Empowerment of Persons with Disabilities (DEPwD)",
+            "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9uWXlTY3JoQmp2YmJGN0xhbDBWVHV2bHcwaFZoNmhwRS13TllSMnBSYUlYTDljcXVqaEZRV3FfaVlEakJOR1k0SGxPU0ppUEJhLTh0d1hsUWFJUQ?oc=5",
+            "date": "Tue, 03 Feb 2026 18:08:00 GMT",
+            "source": "Department of Empowerment of Persons with Disabilities (DEPwD)",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "CEDMAP - CEDMAP",
+            "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE11OWNyU2NUSG5jZGFIRzNyT1dPNWplcDRia011dEZCaVdhMkhfY1A3dzNmSk44WE91MUhPdVhfczlONFl5?oc=5",
+            "date": "Mon, 25 Jul 2022 02:52:29 GMT",
+            "source": "CEDMAP",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "FINAL WORKING SHEET.xlsx - ssc.nic.in",
+            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQnlNME5BVDFlVXpHVm5lbnFoSjh2djlIZWhwU2ltXzlKSFVnU3lNRG01bFFtZld4VmFlbWNzWGZxUWQ1TTVOZk56Z3dybER0dFBZcWVwampKUnBOR2NwUnVrNnIxWmthcmJIazJKM00xUXZtdW9zYWZxOEFwTHpjR0hrZENidmhrREZYb0pZVEtoclYwTlQ3dFQ5TnhleHNMeTJFenJLRk91Y1U?oc=5",
+            "date": "Fri, 21 Jul 2023 07:00:00 GMT",
+            "source": "ssc.nic.in",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Palakkad - Arogyakeralam",
+            "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Ob25HMy1uQW55dTZZemRDam5WT2dxbEJCSzUwbm1felBDQkoxZHlZODJYRUtyU0wyU2ZrVUJ2V00wSW1oU2V4UlF4R0FoRWFTb2pZVjVpN1hDZlc1VlJQag?oc=5",
+            "date": "Tue, 07 Apr 2020 07:00:00 GMT",
+            "source": "Arogyakeralam",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Recruitment - Cuddalore District",
+            "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE83US10WmpDYVl3UFNtazhLck9wNmMwSWtvTTI4SXVYdTdEZjUxOVZ2OHAxemxsRDZxSEk1eGtMMHJmYUhDeEhiWWc0dkgxVWNaWjJ0TXM0aDJjSEFNazlWUHV5OA?oc=5",
+            "date": "Fri, 27 Jul 2018 02:43:25 GMT",
+            "source": "Cuddalore District",
+            "state": "All India",
+            "district": "All"
         },
         {
             "title": "Various vacancy at Bhabha Atomic Research Centre, Department of Atomic Energy,Government of India - Bhabha Atomic Research Centre (BARC)",
             "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5fMlpCWC0xQmFraGJ4MEotV2Z3ZUxwdFNiZjdOdVRaWVJxdmN6SWc1VHFEZVBJVGZoZnJXMi1Xa0J3dlpoM0dYTHRLZTdUWnBfZU4wUEJSZ2IxbGc5?oc=5",
             "date": "Sat, 30 Apr 2022 14:52:23 GMT",
-            "source": "Bhabha Atomic Research Centre (BARC)"
+            "source": "Bhabha Atomic Research Centre (BARC)",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "Recruitment - Government of Punjab, India",
-            "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9fNzdSYnkycG4yVE5vVThUTnhCTTAxN0VJRWxtSGxOYWRhaENlUmZidkVMY3BoSHBLR2pFclMxNlpyOVJGczJsYmY2Zw?oc=5",
-            "date": "Tue, 05 May 2020 03:12:17 GMT",
-            "source": "Government of Punjab, India"
+            "title": "Untitled - High Court for the State of Telangana",
+            "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE42eEVoYzBoWUYwUmVBc0twU29PUXBTb09jbnZwUFBOUUswcjg2SkZBZ1dMR0tXRDVVMzB0R1hWV2cyaktFdExyLW5BOTFFMDF1N1lNTE8xazJJVWZ6YXpIM053ZXcxcVRVdUd3LUNNMzZjNDdleXlSN1NFNE4?oc=5",
+            "date": "Mon, 19 Jan 2026 08:00:00 GMT",
+            "source": "High Court for the State of Telangana",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Home | Welcome To Delhi High Court - Delhi High Court",
+            "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBCMmZkX255UjVETGhPbXFteGVPZnN2bVg5eHczM1BmUWZ1WFBSeEVhVEZRRWxjRnFadG5mME4zS19DSWNhSXhiNXFn?oc=5",
+            "date": "Sun, 27 Apr 2025 14:26:44 GMT",
+            "source": "Delhi High Court",
+            "state": "Delhi",
+            "district": "All"
+        },
+        {
+            "title": "RRB Bilaspur - RRB Bilaspur",
+            "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9DU3Q0dDB5NERGOWFtejRxbW1zQjJCN2hHUHM0VnJHZWNjTkhPUmxVWEVKblNCcWh5b0VQTnQtaEhnS1lI?oc=5",
+            "date": "Tue, 01 Sep 2009 16:10:29 GMT",
+            "source": "RRB Bilaspur",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Academics Unit : Skill Education - CBSE Academic",
+            "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1zaEQzckprN2k3d1JSY3FvTFM3bmhvYVVrMXdxbTdUTDNST3hLVTA5RzVvSWx4TWcwZDdoVm1qNFpSZjc3WloyOXJ1akpGRDBfQzVpVzEwWWJjc3R4?oc=5",
+            "date": "Fri, 12 Nov 2021 10:58:18 GMT",
+            "source": "CBSE Academic",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "- SSC",
+            "link": "https://news.google.com/rss/articles/CBMiOkFVX3lxTFBoU3lITnlYQ0lKMHQ1UF95VlhSYklvbWFYOW5qMUxsYmxYa0dWeWY5aTFtdlBkMmVFdkE?oc=5",
+            "date": "Tue, 10 Feb 2026 11:03:17 GMT",
+            "source": "SSC",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Login - dsssb online",
+            "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE14amZFLTA2dk5qcHM3SGtlYlhwSUdvdUZEZWFBNXltdHZlMlc0ZWZDdEs2MW5EVUdqX2ZOMklieUQ?oc=5",
+            "date": "Fri, 16 Dec 2016 11:46:14 GMT",
+            "source": "dsssb online",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "ADARSHA VIDYALAYA SANGATHAN, ASSAM - Adarsha Vidyalaya Sangathan, Assam",
+            "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE5NZXdud3haMlNsUXZ2elRZNmRFY3JFSEJkZi1aTEgtZmtPbzJQZHB5dHdPaGlXejJyM0JEag?oc=5",
+            "date": "Sun, 23 Feb 2025 08:09:29 GMT",
+            "source": "Adarsha Vidyalaya Sangathan, Assam",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Himachal Pradesh Manav Sampada - Himachal Pradesh Manav Sampada",
+            "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE1XYnZ6ejZiNVJzUmhFWEo1WmoxMDh0Wi1CTzZ6RXA1WlViSzhkeWEzTEF0QUdxSnh2QWNidkFJaw?oc=5",
+            "date": "Fri, 15 Mar 2019 06:59:25 GMT",
+            "source": "Himachal Pradesh Manav Sampada",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Register new candidate - BSF",
+            "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1mTFNMVDU0X0pvTUFFSmYtaDZUOVA4WU5FSlBLUmU3Z1ZhUVV2ZGxmSW9sYzF2Z2Vhd1ZBenJPRWVRUGREV2JlZ2xrTTJOMGRMcUJxRkRYWmliQzJIZWcyOQ?oc=5",
+            "date": "Sat, 26 Jun 2021 18:47:35 GMT",
+            "source": "BSF",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Calcutta High Court - Home - Calcutta High Court",
+            "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9JbW1aNmNXa2s2YlgxOHdCZmN2bUhZbmFESDMzb0hGNmdZbjRwVkVESnI4ay1aMldCZWJ4S25SWXRyS2pEaG9aQnN5dGRMZw?oc=5",
+            "date": "Mon, 27 May 2019 20:15:26 GMT",
+            "source": "Calcutta High Court",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Assam Rifles Sports Quota Recruitment 2026 Apply Online - Assam Rifles-Official Website",
+            "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBQOFlBQ1ZYX2dYQ3AzQ2JoejVGOU5tMTBBWDNhRmlEbERlRVZVYzlGVVZPUlVMdUktMWs5eXlLLVhFMlBWMWFCTS1ieW1vcHhiOFRVMW9VZjNHYmFzdVUwb2xnTQ?oc=5",
+            "date": "Sat, 15 Dec 2018 06:01:49 GMT",
+            "source": "Assam Rifles-Official Website",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "National Education Policy 2020 - Education.Gov.in",
+            "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSGR6a3dDNUJ2aEFzOGlfLWlneFdmLVZYWW9nb3ZBa0ZuVTJYMmQyRDdMSjB1RnRjV0xSZmZrVTJzM2l6aFdwdGMxeERJWEpoOExndkJubDg3X2ZLUGhuVWZ4UU9PcWtqX3U3M2Fkb1NiQ3F1SndkeHIyaE96QmxiNTA0UU9Yb0Y1MGc?oc=5",
+            "date": "Thu, 05 Nov 2020 15:40:06 GMT",
+            "source": "Education.Gov.in",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Jharkhand State Portal | Official Website of Government of Jharkhand - Government of Jharkhand",
+            "link": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE5Ba3YyT0FwSDQ2T2pfeERDaXNya0ZXdDNNWUZwUmZvNnZkUW12OW1GNjNQRTg5dU9sLUgxOXpn?oc=5",
+            "date": "Wed, 22 Jun 2016 07:50:11 GMT",
+            "source": "Government of Jharkhand",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Chairman KVS - kendriya Vidyalaya Sangathan",
+            "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5FTlp1SjVOTTlZTWpFcDVtQ2o5SEtQeFlQN0J1bVROUjlkbDVsN2Y4eHY4a0RMQ3o0OXpjdXBCUHYyenEw?oc=5",
+            "date": "Wed, 09 Oct 2024 06:06:25 GMT",
+            "source": "kendriya Vidyalaya Sangathan",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Recruitment - bilaspur.gov.in",
+            "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5uRE15ZEYtRU1YaE1vc0lXT2x3dkh3QmdScWdmeUF5QmZsSjFWbDdfbEVUOHVXQW0yRENrSzFlcnotZmhPLUJGZkJjTzR6d1pvcEdULTNUcVRoUlR0THc2dmNLRmZUUQ?oc=5",
+            "date": "Fri, 08 Jun 2018 20:53:48 GMT",
+            "source": "bilaspur.gov.in",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Recruitment to the posts of Scientist/Engineer 'SD' and Scientist/Engineer 'SC' - isro.gov.in",
+            "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE52OEE5UWR2cUtFZUhqVldFMS0yNGtIRUFpYXNBUzFwYXkzSEhuYXZ6NHF5dXZxS1d1YWJXOUozUVNMN1U1SkRKQjNJUkVhdHNETDBoOExOa28?oc=5",
+            "date": "Thu, 22 Jan 2026 08:00:00 GMT",
+            "source": "isro.gov.in",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Rajasthan High Court - Rajasthan High Court",
+            "link": "https://news.google.com/rss/articles/CBMiOEFVX3lxTE1EaHdkZ2U4cVV0cGRmUkliWWduNURyMmZqUFk2dERPcl93VERYRTlRTmJjcWJ2LWFJ?oc=5",
+            "date": "Sat, 04 May 2019 15:27:32 GMT",
+            "source": "Rajasthan High Court",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Central Board of Secondary Education - Examination Management Service",
+            "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRzNIM2dXdjNHVlJCaWs2Zk1jNU14QVJWZHpTRXh3a0tpeVMzci1nV2pLVDRxaDNPN0VLbjIwRmk5TV9KSHVlc094WUEwa1FxZ3NoMDNrR09OQzBFa256SnBJS2xSdWJoSm85NzFBalVYWkIyWHpaWmFrTUZhYTdGbXBKeVBqUHpESjNPMXpfUUljVEJqcTJzak9RRVR0VGZsc21XdF93RExSaXJpU0ppVDUtVUhUSllWcVkyMFNadmNzQ1NBRWdhcw?oc=5",
+            "date": "Tue, 02 Dec 2025 13:03:58 GMT",
+            "source": "Examination Management Service",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Online Job Portal - TN Private Job Portal",
+            "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA5bHBZOXdHTGh2NjJhWE9yVnNhYjZjaW5kYk1McERlcEtxMFpsdWhGZkIybjdrUWJiZ3VIeHRNUUNoXzBKMVU5RkU4SGxlUERMcVl3Q2VuY0g?oc=5",
+            "date": "Wed, 17 Jun 2020 03:13:40 GMT",
+            "source": "TN Private Job Portal",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "\u092a\u094d\u0930\u092e\u0941\u0916 \u092a\u0939\u0932 - Education.Gov.in",
+            "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5jaDVXSVV6VkQ2NWxXbHVZVVhBdzZGNE1xdTlNQVo1akRVazl3N1BaOTJLOHhON1dTT2JtUVNDR2hEVGNuSGlDcXFWX1A?oc=5",
+            "date": "Tue, 03 Nov 2020 07:10:48 GMT",
+            "source": "Education.Gov.in",
+            "state": "All India",
+            "district": "All"
         }
     ],
     "upcoming": [
         {
-            "title": "SSC Calendar 2026 Out, Check CGL,CHSL, MTS, GD Constable Exam Dates PDF - Adda247",
-            "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5RNlhWaFB4UWVYWnFwOTlCU0dKczYxZHJHMnFEcXZlR3hYTGlqVlVWYkMxNEhJSG91NmxLbU5FNFFncWE2MkRuNFJJREZqV05qaDFxcW5SX2Zqc0VQZDN1bXBR?oc=5",
-            "date": "Fri, 06 Feb 2026 14:06:43 GMT",
-            "source": "Adda247"
+            "title": "Home | Staff Selection Commission | GoI - SSC",
+            "link": "https://news.google.com/rss/articles/CBMiNkFVX3lxTE9kY2xiV2tKcnJ5cGVJQWNNNTJ3VEFHN0lpLURRNUMtZkJPRHgzYl9sZUY2LXRHdw?oc=5",
+            "date": "Sat, 17 Feb 2024 19:40:30 GMT",
+            "source": "SSC",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "WBSSC Group C and D Exam Date 2026 Out, Check Official Schedule (8478 Vacancies) - Career Power",
-            "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBYYkhTaldKOUhRTzhxSEI2VHczMmEyV2p2dnprZ0xMa0RoYWo0cGo1eDg1V2ZZMWY1UGkxblk1T29FRUstWTUtNnZJLVNuSDVlNHg4WU0wQ1R6di1mekVXeHZYMG40ZGxaVC1zdkNqOTJnSDhfYjZR?oc=5",
-            "date": "Thu, 29 Jan 2026 08:00:00 GMT",
-            "source": "Career Power"
+            "title": "Staff Selection Commission Tentative Calendar of Examination for the Year 2026-2027 - SSC",
+            "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBUSkxWdWZYYVpQcTJKb1VFb1p3Y25xT2JZYVY0R2loWTd5SFVqUWMyNlQ1aE1XWlRVSjk4M2FSbkR0UGpZa3ItSnowOXU?oc=5",
+            "date": "Sat, 09 Mar 2024 06:46:31 GMT",
+            "source": "SSC",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "APSSB Recruitment 2026 Notification Out For 205 LDC, Driver and JSA Posts, Apply Online From 12 Feb - Adda247",
-            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5md0Q1VW9UZkJuOFg2SVNvdXp4bjFUOUZyN3E1M3MxWHNfVFY1a1dHQk5LSUl2WUlaNHV5bVdUYldtc2hsNlFiU0NidDlnZzJoQkpqazJGNWpwS1FsMk5MM1ZHUnhuYm9WRlV5N2htVTM?oc=5",
-            "date": "Tue, 10 Feb 2026 14:20:20 GMT",
-            "source": "Adda247"
+            "title": "Staff Selection Commission - Southern Region (SSC SR), Chennai - STAFF SELECTION COMMISSION, Southern Region",
+            "link": "https://news.google.com/rss/articles/CBMiOEFVX3lxTE0xa2VjNlZXUmZvZjJGenZodEJpckE4NnlpZTBqQ18zV28xa0xvbVlmdkpleWRfTDlM?oc=5",
+            "date": "Thu, 10 Oct 2019 12:19:18 GMT",
+            "source": "STAFF SELECTION COMMISSION, Southern Region",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "SSC Calendar 2026 Out: Download SSC New Calendar PDF & Check CGL, CHSL MTS Exam Dates - Jagran Josh",
-            "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWGhwOU1tLWIxWUd3RUxITWJoRDVGLTdHRUVKNUJYbDUxVVdqVWJrRFRwdTMtTWV2T0pobzB1anBJZ3BoZzE4X25BMUlSckVBMFBvbkZETWVjYV90ZE0teUItR2dXOU1MMGtTMkZJeUYtekk3a3BDYklUdnRFdzloWUxpX2U1UTdMMXo1WjJ6LXU5SEcwQm1jdE5xQVNCQVdWMVpjeXVoZmV5Rm5IZ3FnYVFMdWJyVHRtc3VzTmVMazZOZnRQQV9ubmJn?oc=5",
-            "date": "Fri, 09 Jan 2026 08:00:00 GMT",
-            "source": "Jagran Josh"
+            "title": "Recruitment Notices - CBDT",
+            "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA1YlY0Z0laSHZhWmNweUhqUHZlSW41ZDhTSHBzai1SM3VkSGY5ZVNnWkFER0ZtWWVIQTlQS0RSbWRTNWpDc0RDTVZjMGtFcmNMZFZEVVM1b0EyOVo2X2VNSnM2eUhxSF80M0xWTQ?oc=5",
+            "date": "Thu, 19 Sep 2019 12:21:24 GMT",
+            "source": "CBDT",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "Upcoming 7 Govt Job Vacancies 2026: 10\u0935\u0940\u0902, 12\u0935\u0940\u0902 \u0914\u0930 \u0917\u094d\u0930\u0947\u091c\u0941\u090f\u091f \u092a\u093e\u0938 \u0915\u0947 \u0932\u093f\u090f \u092e\u094c\u0915\u093e - Physics Wallah",
-            "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4tcC1OZjBKcGxsTHNzT0hJZk1RS3dHd0p6RFVPS1hZN0pPdjJBUmFtbURBMGFackJ0a2tSTzd2am84T0E3QjJncDktQkp4NV9lNVBVWFNRcmJSSzIxY1VGYk5Iaw?oc=5",
-            "date": "Fri, 05 Dec 2025 08:00:00 GMT",
-            "source": "Physics Wallah"
+            "title": "GOVERNMENT OF INDIA MINISTRY OF RAILWAYS RAILWAY RECRUITMENT BOARDS - RRB Ajmer",
+            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVHBvMllTczJmRVM1Rm92OVpxUFBCcEFEYUo1X281blV6dUFIRllvRjFVNXpYeWR3ay01TEJoUWZIM2xSR2xKOENKekt3T0RwU3FzU09Yd0JOZ2FBZzRNNFNkZ2JqNkRreF9CdS0wdWNOY2RGVVJpYl9yVmprcXR1Q0RYLU1MTXhSdnVIaUVOTU9paVhKM1gzTjdMMW9rTzZFNmtrQ0FzMHFEeHgtWjlDWHgwbkxUQ0JERnA1UEd2UQ?oc=5",
+            "date": "Fri, 30 Jan 2026 08:00:00 GMT",
+            "source": "RRB Ajmer",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "10th and 12th Pass Government Jobs 2025: Check Post Wise Salary Details - Jagran Josh",
-            "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZWdMVE1QaV94TEo3bzRRZVlhVEVBTGUxNFQ1QXRwYVJkcWxLTzg0UHNMNlFHT2Y0eExuRWNyREVYeG9WZFRKZ01rSjJfXzFRalQ5SHBNMHhDelFWMmhZTlByaUpCR0NuLTBfRDBNTUxWRU10eFl5SUI4N1lyY3hBLU1EZC00MllMU2lKMHRrdDFJbFlVcE1BYWJSLTU1N25QQ0ZsRHRKcVM5RWZGZlhvalp3?oc=5",
-            "date": "Fri, 08 Aug 2025 07:00:00 GMT",
-            "source": "Jagran Josh"
+            "title": "Eastern Railway - Eastern Railway",
+            "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE51M1h6LWxJNlRHcWdyVE9Gb2FpRUVUVkNsVHJMMk5ZLThXbDJJanh3T2YtU0ZOX3piX19oTUpER2ppdEdJV1BaRA?oc=5",
+            "date": "Tue, 26 Feb 2019 13:28:10 GMT",
+            "source": "Eastern Railway",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "OSSSC Excise Constable Recruitment 2025-26 For 575 Posts, Apply Date Extended - Adda247",
-            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcHBCOVJndjExX0NwWlZrZXF6RXdoQWdQVm9IbHY4aTcyNTExM3BuWUtWZGhla01rSk5XQmVqYXd3cDZ6V3U4c09EMi0yRG1SQmJMbWZ3bG9JY2JRLWZ1NnpqY014MTBFSDJ2UlZ0WFNWTWVCbjVLNGNadUVPZ3B0Szh1WQ?oc=5",
-            "date": "Thu, 29 Jan 2026 08:00:00 GMT",
-            "source": "Adda247"
+            "title": "RAILWAY RECRUITMENT BOARD, BHOPAL - RRB Bhopal",
+            "link": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE5TZGg5N2Q2MURCcGFrVE5mcHZCSUFWV09FLVVOWnBjclg4NS1RcXJQcmVxQ2UxT25QZW1XZEd3?oc=5",
+            "date": "Wed, 11 Aug 2021 11:17:28 GMT",
+            "source": "RRB Bhopal",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "Delhi Police Exam Date 2025 Out for Constable (Exe) Post, CBT Starts on 18 December - Adda247",
-            "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9wSDZRRXJ3X05lYmkyekNmTlJReVhpTDBBTWhIdWd3TFpabkJkQW5fcmV2OWhJUzA3bDJoOEo0UWZncnVYdXRNN3pHRTR3MkRDMU5RNGxqemRUTWFzZDNJYnlWVVdQX2lTdjlhZXNndWF3UQ?oc=5",
-            "date": "Sat, 29 Nov 2025 08:00:00 GMT",
-            "source": "Adda247"
+            "title": "ANDHRA PRADESH PUBLIC SERVICE COMMISSION - Andhra Pradesh Public Service Commission",
+            "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5WTlBMWUdlUmNhZmJicThFTDYya1lfT3dtcUhGMVB1YlRscGw0Zk1SWlA1MWp4VG1LSFkzekpVZkZxWHM?oc=5",
+            "date": "Sat, 13 Jan 2024 08:59:51 GMT",
+            "source": "Andhra Pradesh Public Service Commission",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "SSC Selection Post Phase 14 Cut Off 2026, Check Previous Year Marks - Adda247",
-            "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE02RUhXem1RWGtvU2ZzLWxKWDFpTlU4eFBYU0RuV2NxQkwtaUJsOXo0LVhOM2hWamdqdjd0M2wzRmo5VDJIdGF3MzFfYVEyZHdhOU9jTmQ2VzF4SjFDMnVIWjdUMzVYMUE?oc=5",
-            "date": "Fri, 09 Jan 2026 08:00:00 GMT",
-            "source": "Adda247"
+            "title": "North Eastern Railway - North Eastern Railway",
+            "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBSY0xsQ1N1Z1NOdDR0WDNkdjFnbTFqMDZBbGYzekhYNVFBblo2UDJoUFBDT0o1NEZTOXotUG5oQWFOVHZLcVFYb3N3?oc=5",
+            "date": "Tue, 26 Feb 2019 14:08:08 GMT",
+            "source": "North Eastern Railway",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "SSC GD 2025 Medical and Training Dates Out, Check the Full Schedule - Adda247",
-            "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE53dXc3TUNLOHpzZEJReGNPSFdLTGVham5mcVk3R1pjeXRhRGE0UV9oQ3lVTU9PS1dTN0l6N0R0eG9jaGc0TFR5Ujc5Sk9XR1dxMUkyOGlnUndFRGgwd3FDQjVSMWYwcmZTWVpVMFFSY0RJSllkT2ZNd2N2N3BmUQ?oc=5",
-            "date": "Mon, 03 Nov 2025 08:00:00 GMT",
-            "source": "Adda247"
+            "title": "Untitled - RRB Ranchi",
+            "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQN0VQNWF6LVp0cG53eGdGRWdvM00yUnR1U2FqeXZIQWMxaG9zelBrb0NxMWtUM3RDN21yUWQ0OWdQSXJBbVUtYnlSSThKZmFyX3VfcVN0THFNLThWMGxONEFRd0F3MjR5ZmRoZ2xFRENHVWpFbkZMcGFmSGZBeVZmR1R2OUEzU25oMnRIRk8yelA0Zw?oc=5",
+            "date": "Tue, 21 Jan 2025 07:29:04 GMT",
+            "source": "RRB Ranchi",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "AIIMS CRE Exam Date 2025, Check Tentative Schedule - Adda247",
-            "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE52NGxCazlBcnRTb2FJY2xxWlBIUUdXWmh6cEhrbTRXcUJiUW1SRzFjR3hYQmJvYjZqUWpTUi1obXl3MDRBYU0taS1iZW9KZGxacFR5VjFqbDNqZFcwOGRkVllNNU5ZTnpDanpGZ08ybWw5c00?oc=5",
-            "date": "Fri, 12 Dec 2025 08:00:00 GMT",
-            "source": "Adda247"
+            "title": "RRB Kolkata - RRB Kolkata",
+            "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE4waTAxWVo4bVZQWU9IOHB5WGp2TEZPS2xVWGNVMkx6dDUxWTF6dS1XSUVpNHJqMWJsbk14RVh6emU3V2tr?oc=5",
+            "date": "Thu, 03 Dec 2020 06:10:53 GMT",
+            "source": "RRB Kolkata",
+            "state": "West Bengal",
+            "district": "Kolkata"
         },
         {
-            "title": "RRB NTPC UG Exam Date Out \u2013 Start Practicing with RRB NTPC Recent Papers - Adda247",
-            "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeExoYnJwNW5MOXp3NmhIS21DeDlQYWtGSDdpN0V1ZjhwUlZsM195WDAtNEt3X1JHNmlNN2l5dDIzdDcydlR0bVlOdG1HRjY5V0lJR0Zhb3pOaHVrNlF1NS0waGlBOEdjMnE3VUVodGhnSVhTYV9nQVJ6Z0tiTnZsQ0cxdjd2cm11Vm5jck9aVVNyY2FWWS1UOVExYlYzSXhMME1XcXc0cjRvYVRBUnc?oc=5",
-            "date": "Thu, 03 Jul 2025 07:00:00 GMT",
-            "source": "Adda247"
+            "title": "Careers - isro.gov.in",
+            "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5VNFAxcncxT0dqUkxZUS1uWDkxVTl1TUMwLVhJSVRFU0lXRHhKbzdnRkVackM0OGdlSUF5SElDbEZFMXlWVTJ1SkFaSjQ?oc=5",
+            "date": "Wed, 28 Sep 2022 14:52:13 GMT",
+            "source": "isro.gov.in",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "DDA MTS Vacancy 2025 Notification Out, Last Date to Print Application Form - Adda247",
-            "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91TVlCcU4zNG1HcXBnbFB5Wm5ocXdmbF81Ym9sblJfT0lTSmdTaWc0aEZUMDY5NUg4bkwySzMtdXFDOGROY1JocGo4RGt5U1FXYmhzZzVsOWpwQk9kTDdmUGVGSEVydUlxYlBnWFpB?oc=5",
-            "date": "Tue, 18 Nov 2025 08:00:00 GMT",
-            "source": "Adda247"
+            "title": "RRB AJMER | Railway Recruitment Board - RRB Ajmer",
+            "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE4ydkZPai1lcFQxM3AyUGdyY2Nud2lsNl9mS2tCTWZOLWtmWWpkQldHUGFFb1l2Sk1kVFNpYQ?oc=5",
+            "date": "Thu, 24 Nov 2022 13:21:54 GMT",
+            "source": "RRB Ajmer",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "RRB NTPC Salary For All Posts After 8th Pay Commission - Adda247",
-            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbWZra1NBQk9CU21EajJmRndJUHNoT0dMNlNRSWlUNVp3ZUN3ZllOS0lpZjlpeDFrX2R6NFdzVkk5TmJwb1hqZkF1TGdwbElLN0dRSlZfODFaXzRSZlRZY3RlWXhEODBldDFjRDhRclQydGdkTVNIVDctWkk1M2xQam9TWFN5b25mSHMzNUJCNFJtRGxvNU1naA?oc=5",
-            "date": "Fri, 31 Oct 2025 07:00:00 GMT",
-            "source": "Adda247"
+            "title": "State Council of Educational Research and Training - SCERT Kerala",
+            "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5uRkhtM1ppUjlpdExzd0FtQ0R5Q1RXa0xPU3B5MFNQWG5CUVVPN2hmV2d5TU8tYWZ0MTFxbWhRRFRsdw?oc=5",
+            "date": "Sat, 26 Jan 2019 19:31:10 GMT",
+            "source": "SCERT Kerala",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "How Many Lakh Candidates Apply for RRB NTPC? - Adda247",
-            "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSkRxcjBZZmlkUVNNM29fRVlseHFKSVhzazNNa3NPX0dCektPYkRWbldLTjcwRC11SWZXd2ozS3FRZXUxdEJTMkc4ZEtwSTQzVWFhb29RS2h1TVV2STdnR2J2bG9TYmlLam9PZC1fWjFYQzFXTHE3NnAyRHRRZ253QnVoM1RyeEhJQ1E?oc=5",
-            "date": "Sat, 01 Nov 2025 07:00:00 GMT",
-            "source": "Adda247"
+            "title": "DSSSB Vacancies | Delhi Subordinate Services Selection Board - Government of National Capital Territory of Delhi",
+            "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1FZk1CZ2ZNZEtVamFMRnlfM0ZfOWdKY0ZNWXVfbFNpeHluTWhIbHJiWlZROE85REVpenpieDN2OWxBMUV6S2NhRGplRXZEaWtxeXIwSw?oc=5",
+            "date": "Mon, 24 Apr 2023 17:05:58 GMT",
+            "source": "Government of National Capital Territory of Delhi",
+            "state": "Delhi",
+            "district": "All"
         },
         {
-            "title": "SSC Exam Calendar 2026-27 OUT @ssc.gov.in: Download CGL, MTS, CHSL, Steno, GD & JE Exam Dates PDF - Shiksha.com",
-            "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTXE1SU9HOXg0S1dQN2UxVGM2U25yYWF6YlFPNEZvOTREaW1uUTlUWG4xWWpsUTlKS0JRSW82c3hYMmVoTG5HNWpVWFFzdS12eXUtV3VseU1aRlNBYy1MbW9xUmlkOVR4c1YyVE1jTUZmeExsRzh1anl6WFJoLXlvb01YUWJ1THpZUkE?oc=5",
-            "date": "Thu, 17 Apr 2025 06:11:29 GMT",
-            "source": "Shiksha.com"
+            "title": "Home | Samagra Shiksha Axom | Government Of Assam, India - SSA, Assam",
+            "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE05OU93a0VsUVE4eUpORms2OGpMaVlOa0t5SzVLTlRpQmlBYXFTclJMcnNuYzFldXRtckNVMg?oc=5",
+            "date": "Tue, 12 Dec 2017 05:44:49 GMT",
+            "source": "SSA, Assam",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "DSSSB Forest Guard Recruitment 2025 For 52 Posts, Apply Online Till 16 September - Adda247",
-            "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5Eb09wUG91RkVvbTBveTdvRXhGS2FKT2dnMlhjRnBEa1JoMU43cGRySTV4TnVPV1dYdFI4TFUwVkJMOHpmdmhFS0xYTEJFTXpIMWo4MzV4ZWRhbXhEWEh5cWxPajgyUQ?oc=5",
-            "date": "Tue, 16 Sep 2025 07:00:00 GMT",
-            "source": "Adda247"
+            "title": "Odisha Staff Selection Commission (OSSC) - OSSC",
+            "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTFAtUUtCM3V5WkJENy1wV0Z6d0liVmkyeXU3WklfbHp2NkEzNjRKZC1ZUmgyS1VCT09zSDBaeg?oc=5",
+            "date": "Thu, 22 Oct 2020 03:35:18 GMT",
+            "source": "OSSC",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "APSP SI And Constable Notification 2025 Out Soon For 264 SI and Constable Posts - Adda247",
-            "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMG1kVVBPeGV2TEhWQ2VvTFF0ZjVydVE5NGs0MTQ5ak8yak5Velp6ZVp1ZmctVFNPSmtJS3hDQlJNSkxFa2dzdmRLeVAyMGxTdllreGFZTU4xaEVwTy1RbmRya0JQeko0MTdaSFZJWXF1bFNVNmFUb1RxVTJPT09UMnRkSHpHMDc3MTlXTHNn?oc=5",
-            "date": "Thu, 27 Nov 2025 08:00:00 GMT",
-            "source": "Adda247"
+            "title": "Supreme Court of India | India - Supreme Court of India",
+            "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5jbFlFUjZkWEVaLXhMR0VMUDNpVTdZMnFZNmwwbEdnY3VVZnhLcHRCYU9kZXVRQUR5UmJ3?oc=5",
+            "date": "Thu, 03 May 2018 14:04:13 GMT",
+            "source": "Supreme Court of India",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "Chandigarh Police Recruitment 2025, To Be Soon For 400 ASI, Constable Posts - Adda247",
-            "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5RcENua3k0MFJyb0U1Z0xwWVAyNlJBdWZwdUphT3ZBZEMxbGJWc0dqS2ZrWDY3VlJ2eENDNHVYWFd0UW9wc3JGRE0xX0tLZFEzMFI3c2ZaeEowbHpuRmV0ODJyOUtMS285VHhMM21pLVBrYkRSSzZfQVJPMXc?oc=5",
-            "date": "Sun, 01 Jun 2025 07:00:00 GMT",
-            "source": "Adda247"
+            "title": "Home | Delhi Subordinate Services Selection Board - Government of National Capital Territory of Delhi",
+            "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE83WE1pUm94UVB6c25Zd0RRYzVFbVlhd2t1aVVrd2ZEQkxhRzZzTXBmUTFSQWZBZXdkVU9VbnhNUWM?oc=5",
+            "date": "Mon, 02 Dec 2019 19:50:47 GMT",
+            "source": "Government of National Capital Territory of Delhi",
+            "state": "Delhi",
+            "district": "All"
         },
         {
-            "title": "CG Vyapam Lab Attendant Exam Date 2025, 880 Posts, Selection Procedure, Exam Pattern - Adda247",
-            "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQc1dJSFdQRkhBdWo4TXUwZUdjU1F5Ty1iUXZHYUF2SnphcjNlYVF6WlJnR3V2MEZsMHp6UGpxU2d5SncyU3kxMEVsR2JvQTE2bm1pbHNVQXFwQmlGRmVqQjBOcDNYZzZLNmktZjEyOWZjTjlxbW9hdGMtSjA0eWhmTzNFQ19kTFZtWmdOQg?oc=5",
-            "date": "Thu, 24 Jul 2025 07:00:00 GMT",
-            "source": "Adda247"
+            "title": "Calcutta High Court - Home - Calcutta High Court",
+            "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9JbW1aNmNXa2s2YlgxOHdCZmN2bUhZbmFESDMzb0hGNmdZbjRwVkVESnI4ay1aMldCZWJ4S25SWXRyS2pEaG9aQnN5dGRMZw?oc=5",
+            "date": "Mon, 27 May 2019 20:15:26 GMT",
+            "source": "Calcutta High Court",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "Over 1.21 Crore Candidates Applied for Railway NTPC 2025 Exam - Adda247",
-            "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWGZzVVVmYnlZNS1tSDF1WFRsbkxPZ19rcUZCMC0yTFdEY0VJdGs4QmVRZmpjaER6UUdfbzJldko3ckYwOWlKN19nVW92YXBuOXdRNHQySTZmcy1iZmZaS3VTcGdtQjN5OWZyUUkzNHlWXzQzTldNRlFCbVRkTE1YWU5KbHpQTWh6SUhfUGhmb1drbnhDWVA2cHdheWVqVzBNSHc?oc=5",
-            "date": "Thu, 01 May 2025 07:00:00 GMT",
-            "source": "Adda247"
+            "title": "High Court of Himachal Pradesh - HP High Court",
+            "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE0xaW1LWjFSTmd5RmpSNXc5N1c1OVltdkV6eEdIZ1ZIZzlfQUdpQ01wY0xNdzRjZW5YMjBqZHhMaFBPZw?oc=5",
+            "date": "Sat, 25 May 2019 12:05:32 GMT",
+            "source": "HP High Court",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "Patna High Court Group C Exam Date 2025 Out, Check Exam Schedule - Adda247",
-            "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5HVmMzUE8zci1odDAyeDkxNmxPbGN6N0Q2OGhFSVozd1RYNTBuVE9neU1SYWZMRDFlOUNqazV6X3l6dW5aVzF1SW9YcUp1SFZ1TWtSamZTMjI4NlFQcEpSVGtObWpTS1d3V3NHalpB?oc=5",
-            "date": "Mon, 16 Jun 2025 07:00:00 GMT",
-            "source": "Adda247"
+            "title": "Government of India Ministry of Railways Railway Recruitment Boards CEN No. 05/2025 - RRB Ranchi",
+            "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYU1GMEpCV2VmRTlhdnlKZGJJNEwyaDBmeHcwVnFpSWRCdzI5VV9ncjUzQ3diTmszd2h1ZWp1ZzVuWVVuSVZRQUpEUVVUR2hHVHZ6VnJLdTZxVTU1enpWeEw3cEVsVk1aaEh2VTR5SUU5QjJVMl9QQ0lVdGsycWR0OHhzd1dSSDc4d3RudVIybmp0Zw?oc=5",
+            "date": "Sun, 30 Nov 2025 08:00:00 GMT",
+            "source": "RRB Ranchi",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "CPCB Exam Date 2025 and Hall Ticket Out, Check Official Schedule Here - Career Power",
-            "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9odllia2Q5N0IzbzlrZzV0MklxNzlBV21mVEZhalBWaWhZTkR5eUtGMHVjXzRPb3VESklaRThsZExHVUQ1WlY3Si0zTC11RHZQcl92RUo1cy1ickFRRnV2Nmc0SQ?oc=5",
-            "date": "Wed, 21 May 2025 07:00:00 GMT",
-            "source": "Career Power"
+            "title": "Current Opportunities - isro.gov.in",
+            "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1sRmVwRHdzNGZTSHFORUpyTHBSMm4tM0NaSjR0ak51aHpMai1pSmVGTC1MdV9YUjFQTlMzU2lIM2t6cktzdEdDcmY1dnpDTVdXclZNS0oyTmJGOTVUZmc?oc=5",
+            "date": "Wed, 28 Sep 2022 16:38:32 GMT",
+            "source": "isro.gov.in",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "List of SSC Exams You Can Take After 12th, Check Complete List - Physics Wallah",
-            "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBNRmZ5UjZyV29TTnprUnVuVm9zNk1vQ3dZQWFjVmt5a2IzUDVvZ1piUFI3MWNXV2ZmSEYyTmpqMXdGalNYOWVmQXRVVWV6QUx3NlJldWVwU3ByamhkZS1NT2J4Z0h4Tk1BQjl3U0hhYXBjRnk2Y2g4M05jOA?oc=5",
-            "date": "Wed, 05 Feb 2025 13:41:26 GMT",
-            "source": "Physics Wallah"
+            "title": "Home - Bihar Public Service Commission - Bihar Public Service Commission",
+            "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9iUmJPS0R3eE1abGh4VWVPS29TVUJiSDYzNVBHcXhucnA3U21MM0tva0VxM1FMTGNsX3k0SHNwUQ?oc=5",
+            "date": "Wed, 05 Feb 2025 08:11:35 GMT",
+            "source": "Bihar Public Service Commission",
+            "state": "Bihar",
+            "district": "All"
         },
         {
-            "title": "SSC Exam Calendar 2026-27 Soon; Check Expected Schedule for CGL, CPO, CHSL Here - Shiksha.com",
-            "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUFhIamkxLXNrdzFPNGtIUG5wLVZLRFBFTUtSNFdqM09mbHl0dUJOZzZ4ZnNpVzNzaHZxWXRId1g4Ui11d3NJU0tGVUJlTVIwZWkyaTNkUHFIblN6YWxPYlZ1T2p3WThacmpFeUI4ZVVoa09ZcjJvZG0xbXR1RUFyNjgyMV9qaTJiWGJDdVZxemVaQ0RhaVdocEVIanVfWC1GNjVxQ04xeDh6WUVvSGJZWTI1cWV4emdFMTl6eUtDRXdILTJMVUsxSW8tTV8wUQ?oc=5",
-            "date": "Thu, 08 Jan 2026 08:00:00 GMT",
-            "source": "Shiksha.com"
+            "title": "Visakhapatnam District Court | India - Visakhapatnam District Court",
+            "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBKMFRZNWpxZ3dHNVNRMzBEcXhTVWtFOGNFbHhLN2VWYVJTZDlDSEdsREtVTFJGTENJU1RtcXlRalJEdEl1ZVV4dEQ2OWlmUQ?oc=5",
+            "date": "Thu, 20 Jul 2023 04:57:54 GMT",
+            "source": "Visakhapatnam District Court",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "SSC Exam Preparation 2025: Step By Step Guide On How to Prepare - Adda247",
-            "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9iN3VNd1VPQm5mdEZ6UFlmRGNJMWFHeEluajNUSkh1OG5RbmktM1BGNGNDN3RnQ2xHT1JxY3hGQk9CLW10T3ozT1FIWXdWSm1hdDJsWGUwRDhtck5KdzdnWnJJX3dDUlVM?oc=5",
-            "date": "Sat, 08 Jun 2024 05:26:31 GMT",
-            "source": "Adda247"
+            "title": "Railway Recruitment Board- Thiruvananthapuram | Owned and Operated by the Government of India Through the Ministry of Railways - rrbthiruvananthapuram.gov.in",
+            "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE01XzdIX3ZBU1BJTWdsOWYwbUlTMEU1MzNlSEw2cUlOZlY5WHlBRkZwVTVucGFLT3d1cDVHUUdwazRDcHgzNU1YMkpBNElSZi04UGdz?oc=5",
+            "date": "Fri, 24 May 2019 16:59:59 GMT",
+            "source": "rrbthiruvananthapuram.gov.in",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "SSC Calendar 2025 Out, Check Revised SSC Exam Notification Schedule - Physics Wallah",
-            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8xd3pyTm0xZlNhendzTUJ0V3N6Vy1KWGRKR0lWeWwySHdIbURlVEQ0aXFKaHBVTkJMN1MtXzBHbHZDNVpYV08tcVFjbmRMZXJXMWI5TGotam5SMlk?oc=5",
-            "date": "Thu, 06 Feb 2025 08:16:32 GMT",
-            "source": "Physics Wallah"
+            "title": "Purba Medinipur | Satyamev Jayate | India - Purba Medinipur District Court",
+            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1xRVA1RkZGVU96bnBsSzJ4cGxBdlMwWGs5aTdfS1VlNmM1bzUxS2dLaWxVbXpRTWFIZFJiTmlyUzJRazBqVlF2VUM0MkZVNDA?oc=5",
+            "date": "Thu, 25 Jan 2024 01:16:53 GMT",
+            "source": "Purba Medinipur District Court",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "RRB Exam Calendar 2025 Out, Check Exam Date for All Railway Exams - Career Power",
-            "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBZRkVqaDhCQVdCeFpUOXM1R3lTNGRpcDNLU1FtZGI5ek1FdVlSMF9FWWlkY2FRTm9qVUdEc2ZvSTgtM0lzbUNMeFpJZWRBZHpDU0JyUHdVY3BNcDV6dWpXNm1qOGI?oc=5",
-            "date": "Wed, 14 May 2025 07:00:00 GMT",
-            "source": "Career Power"
+            "title": "Home page | Delhi Development Authority (DDA) - DDA",
+            "link": "https://news.google.com/rss/articles/CBMiNEFVX3lxTE5rdkRRX3ZGRlNwaTBxTzR4cE1wOTZfcmN5NF9sSXFMa21Oc0dXeEV3ODZwSWk?oc=5",
+            "date": "Sun, 15 Aug 2021 09:23:55 GMT",
+            "source": "DDA",
+            "state": "Delhi",
+            "district": "All"
         },
         {
-            "title": "SSC Stenographer 2025 - Skill Test Date (Announced) - Careers360",
-            "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9sNkQyNWZmaGpQc0ZMdGlkbXpEWFVtZHRiaWNmT0E1dW9MYzVCeXdfd1Q1cjJMWko3a3lWZkdrVE5pc0JMNFV1NWFZeG14NF9FUzl6Z1pLUDBZbnpBS2toSXFaamx6aGtWTENzY0NhcU5sN3c?oc=5",
-            "date": "Tue, 10 Dec 2024 12:01:45 GMT",
-            "source": "Careers360"
+            "title": "Digital India: MeitY, Government of India - Digital India",
+            "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBiSkpUeHhRVk9kMWw5bmR2NHNWbzA1RUFtQVhCUy1MVXFHU3NnZF82ZHBZY1FZTHNqR0tXODV4OFVEUlRGVmRv?oc=5",
+            "date": "Tue, 08 Jan 2019 11:25:42 GMT",
+            "source": "Digital India",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "RSSB Lab Assistant Recruitment 2026 Out For 804 \u0932\u0948\u092c \u0938\u0939\u093e\u092f\u0915 Posts, Apply Online - Adda247",
-            "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPektvaXg2SlU1TmZKbnpsTTMzeExHVlpUSDd1Z1FjVXJ5S0ZDTDFJSC1nRnVYQ1VuMHI5WTM2amJ3bWpIa21mOUZWaC0tN0ZHRjEzTUVqdWJLNlRqRGNra0NPZFVzdGtCNDJURjdnREktMGlsN1hxQWY2WTc5bVp0TEhB?oc=5",
-            "date": "Wed, 11 Feb 2026 04:47:46 GMT",
-            "source": "Adda247"
+            "title": "Indian Space Research Organisation - isro.gov.in",
+            "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE9zS0Q4YWVGLTRGdVFHY0wwNFNkSUdaNGMzbXcweGNWM1N6LUhTbFY1bEJOcVgwU0dEdF9fZA?oc=5",
+            "date": "Wed, 09 Dec 2015 15:36:24 GMT",
+            "source": "isro.gov.in",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "SSC GD Eligibility 2026 OUT: Age Limit, Educational Qualification, Physical Height & Weight - Shiksha.com",
-            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRUF5QXhLVXNGcWJYNS1FUWNXd2lPSEVHY0F0cDdpcE51Z3l4aGpuVm1wYnl6Ny1hUlluOXloSHROa1NpVXpNd2IwQTRuUTc4VlNWc0owRVlZNzYxZEE3Um1VeGJDdU54ZEZWZ05GdFBvZ3ZaTmRXd04tVmh4VV9paVlMcHEzZDRNNWU1dmliQVA1dVVlaVZBT05rd1VBT1ZIemlN?oc=5",
-            "date": "Wed, 22 Nov 2023 10:13:42 GMT",
-            "source": "Shiksha.com"
+            "title": "Personnel & Administrative Reforms Department - Government of West Bengal",
+            "link": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE5GTUlGeU5xaU1RZE00V05iamlPVXlqMXJLamFVUW5ubDdjczREb0lLRFJpQzJlV3RZV2c?oc=5",
+            "date": "Fri, 05 Aug 2016 09:00:15 GMT",
+            "source": "Government of West Bengal",
+            "state": "West Bengal",
+            "district": "All WB"
         },
         {
-            "title": "AIIMS CRE Exam Date 2025 Out, Official Schedule & Shift Timings - Career Power",
-            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5aaWxhcmFBMW9nQTlVOFp2LU1YZm1CQkFTWm9MSDhIT1YzTFIzeUtiaW9kSFptck92VEFwN3ZHUlhLT0NySFFCUXpjallUcmJpN2NzWEU5aWUtbWdtOHFuc3RHT2pLcWdHRVE?oc=5",
-            "date": "Tue, 16 Dec 2025 08:00:00 GMT",
-            "source": "Career Power"
+            "title": "West Garo Hills District Administration | Government of Meghalaya | India - West Garo Hills",
+            "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5FUVNpT1NveUgtaEM2Ynk0RDVTeEhnZVI3b09YSWpYU3BiekZyNHNKalFjaVdCTUlHcHNoaFNObUxKQ0k?oc=5",
+            "date": "Thu, 15 Sep 2022 14:55:43 GMT",
+            "source": "West Garo Hills",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "Can Final Year Students Apply for RRB NTPC 2025-26? - Adda247",
-            "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSDNzV2YtV2wxWmktSlJuZUNkUkJzUVB4NUVYczdfX2lPZWkzRzVPVVZCcFhEWFNJU3g2T1E4a1FvY19XNUhYMTEzeHJQVHphQll3TGpwUU1JSnAwM3Rtb1RFVTlpQUh1MTFpS3dkampobm1pbjk4YmhLNDB5ZkdKM0xPQU44MnY2bk5sSmN5TE9qeHFjU0tlODRRM0MtTW1LTDFJeVoxcm5PRU01eWpmVUcycG1BVG04bV9iWmgteHl4VHVYdEdFTkhPY0NRVjdjWU1IZEhR?oc=5",
-            "date": "Thu, 30 Oct 2025 07:00:00 GMT",
-            "source": "Adda247"
+            "title": "Recruitment - raigarh.gov.in",
+            "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5NM19xM2lpVEoyX3dzTjFrV3ZUR1ZDdUo4Y2RHN3hteE9zYnZjVWlnODlCMU80UUJ5MGV0aGcyc2swLW81a3dKUjBQNWdiVFBodEtBTDhVbzV5WnZ4NmhPWldaUUc?oc=5",
+            "date": "Wed, 13 Jun 2018 11:37:45 GMT",
+            "source": "raigarh.gov.in",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "SSC Exam Calendar 2023-24 OUT @ssc.nic.in: Download SSC CGL, CHSL, GD Constable, JE, JHT, Steno Exam Dates - Jagran Josh",
-            "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5IamxOTWxTNnNyd1BmQlBPSlRSTjhnM0p2c0NtU1dZaHNIRlg3MkI1QlNiSGxfRHdXZFYwLVNoR19NZmIzbmZlaE9lX3RycXlTOWJpckhvazR0N1FvZXcyOWJjdUp0ZkUzUUdkV1ZXNG5kb3li?oc=5",
-            "date": "Tue, 07 Feb 2023 08:00:00 GMT",
-            "source": "Jagran Josh"
+            "title": "FAQ - indiapostgdsonline.cept.gov.in",
+            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBYSmp5STdpRWZtZ1BqTnJBd0dJUUZmc0NubVlMQXRQdjJ2QnlrN1J3Tms0UWRIUHYwdWtDemxLa1lWTE1qdTF5NkREeDFNa254YkF4dXZjd01fQTQ?oc=5",
+            "date": "Tue, 03 May 2022 05:00:21 GMT",
+            "source": "indiapostgdsonline.cept.gov.in",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "PSSSB Jail Warder Exam Date 2025 Out For 500 Posts, Check Exam Schedule - Adda247",
-            "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SmlETXJpMzZyR2VJdURVT0Vaci1XSlNvSXhsc1ZQdzIxd2ctY19ycDBJMy02NXF2Z2EwOUhjVXBoRWxKVEJJYnFmQV9JQnNOVUZuR2UwXy1OYV9YX0U0dnpBOXBVV1J6VHNrVmZZeE1nZFpTV1B6a3NxRXVxQQ?oc=5",
-            "date": "Sun, 05 Jan 2025 08:00:00 GMT",
-            "source": "Adda247"
+            "title": "ADARSHA VIDYALAYA SANGATHAN, ASSAM - Adarsha Vidyalaya Sangathan, Assam",
+            "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE5NZXdud3haMlNsUXZ2elRZNmRFY3JFSEJkZi1aTEgtZmtPbzJQZHB5dHdPaGlXejJyM0JEag?oc=5",
+            "date": "Sun, 23 Feb 2025 08:09:29 GMT",
+            "source": "Adarsha Vidyalaya Sangathan, Assam",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "BPSSC Bihar Police Havildar Clerk Vacancy 2026 Notification Out For 64 Chief Clerk Posts - Adda247",
-            "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObEViM0VYSlVQaGRuUGV1N0lDS0syYVQ3LXMxaVFxUUxfTWV2a1paQktaeWhvSkVLN3huQnFnVWJ2SDFVSU9qN0Z3bDZyTzVCTzNFcS1MaEUwVzk4c0lxRlVMNE9MUjNuTjBMUU91YUpUcEZGaXU1enR6SUNudWYzVlIxamU2SUNSenlF?oc=5",
-            "date": "Fri, 23 Jan 2026 08:00:00 GMT",
-            "source": "Adda247"
+            "title": "Home - TNTA - Kalanjiyam - TNTA - Kalanjiyam",
+            "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5mTmlhWmdRS0Z5TDUxY2FabTFSNTZ5R1hKWktmclh4Z2VOWWZwZEVwRHZVa2M4bUZ0eFppNXUyMTc4YXdJMzNJYg?oc=5",
+            "date": "Fri, 24 Aug 2018 18:12:40 GMT",
+            "source": "TNTA - Kalanjiyam",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "SSC Selection Post Phase 12 Exam Date 2024 Revised, New Schedule - Career Power",
-            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNXpMOENBRTljUmNZRHl1TThSYXZhRFp2Q2VqSllXTGVnMm95NXYycHdYSlRtTlhaZDMzUWlDZ1FBT2t6ZXdzSm1pQ2N4R2Vxd3NRSE0wa2tleUdZQWYweno2NXl5VDB4NGNOTTJLYVY4d3B0cUNLYmxHclFfenJYWEZYMA?oc=5",
-            "date": "Thu, 09 May 2024 07:00:00 GMT",
-            "source": "Career Power"
+            "title": "National Informatics Centre - Homepage | India - National Informatics Centre",
+            "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9OazFDSy03LTdJY3ZjcEZHejFJXzlsa3E3bFF4aEF0b3VmaFJwbnJteHh2SU55dGtNQjdZ?oc=5",
+            "date": "Fri, 09 May 2025 15:12:41 GMT",
+            "source": "National Informatics Centre",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "SSC Exam Dates 2025 (Announced) - MTS, SI, CHSL, CGL, JE Exam Calendar, Complete Schedule - Careers360",
-            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5HNEpqWTVxWGFMeXhEaGN2WVVDd0ZWRE9KM25QX2dTVUlRS1dCZ0VpdVoxYkdxOTZwX283T2tJQTRHWFVvazNXbFpqWFByQXEwaTZRMnVzYXBSQ0lSSjFKWm14bXZSWHRyLUE?oc=5",
-            "date": "Thu, 30 Mar 2023 09:10:09 GMT",
-            "source": "Careers360"
+            "title": "Official Website of Indian Coast Guard Head Quarters, New Delhi, Ministry of Defence, Government of India. - Indian Coast Guard",
+            "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5VVEUyTVhFMzhlSEZvTWFxYlNlYkZQSmNSQjdXU2RxSGJiSUV2bEtYWFVONkEwUzF5ZTZ6cFc4YjVoWGdWNWtJ?oc=5",
+            "date": "Fri, 22 Sep 2017 12:11:57 GMT",
+            "source": "Indian Coast Guard",
+            "state": "Delhi",
+            "district": "All"
         },
         {
-            "title": "SSC CHSL Eligibility Criteria 2025: Age Limit & Qualifications - Shiksha.com",
-            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbndhMGJFMGxkVTh3WWZpd2FNVGc3bUdMWEpSWGVVaUNvWHlYWkNmR1p6ZmVqVkFYMHJJQnkwU1dpNXVJWTctZXVwWE5DMnQ2SlZySVNaMlQ3RXkwRFhGTVZjQlFfNXBZYnhuYjQ5cURWTXhKSkRkbUFkSWd0dFcyYV9FcDdsY2xrSFlWMG4talVqVVZFcy1lRQ?oc=5",
-            "date": "Fri, 03 Feb 2023 09:42:47 GMT",
-            "source": "Shiksha.com"
+            "title": "District Murshidabad | Government of West Bengal | Nawab Empire of Bengal | India | India - Murshidabad",
+            "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5NTFB6S0RfS1U3dHdqMmhsYnVBc3k3V29TNWRGRk5wZkFyM2p5Y2JZOWZRdTVkdjZXLTZFc2FjVFo?oc=5",
+            "date": "Tue, 02 Feb 2021 15:01:07 GMT",
+            "source": "Murshidabad",
+            "state": "West Bengal",
+            "district": "Murshidabad"
         },
         {
-            "title": "Upcoming Government Exams 2026: Latest Updates on UPSC, SSC, Bank, Railway, TET, Defence Exams - Careers360",
-            "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5TbWZLMXFUVUtfTlZSQW81Y1N1QlRISjNyWHNIMldadjBWLTVFVjMxeExoT1dhV3YtcWlDUk5DVm1HeFpSd29lRTd1bXVtX2dVZ0ZqUjRieWlNWVJGbUp5aHlROHd5dTZnR0o2TGdNbGh2UXk2UEYxNw?oc=5",
-            "date": "Tue, 17 Aug 2021 23:00:43 GMT",
-            "source": "Careers360"
+            "title": "DISTRICT AND SESSION COURT JAIPUR DISTRICT | India - DISTRICT AND SESSION COURT JAIPUR DISTRICT",
+            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE00WllkWU1pZk1jOVdrM1l2VWFYVkxCQ1FfUjRaQzVmdWpzelNkV1NXOXBPZzI0Rk9HeFZSaXpFNWFZazJJdWdhN0tvU0Q0ZTQ?oc=5",
+            "date": "Wed, 14 Jun 2023 09:02:29 GMT",
+            "source": "DISTRICT AND SESSION COURT JAIPUR DISTRICT",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "Puducherry Police Constable Recruitment 2025 Notification Out, Apply Before 12 September - Adda247",
-            "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9fcGd2TlE0b2x2a1BVclBqMllscTV5dndIblRYT0NZNFp6THhUTGZRdG5TbHdHbmdOdmRWYUVsQVUzTUtoNUJzaTNIc0hORTFJYWY3MF91ZmdQM0VwTFNwQWJSaGcwRGlwWWN5WXBwaUk0MGV5LV80Nw?oc=5",
-            "date": "Thu, 11 Sep 2025 07:00:00 GMT",
-            "source": "Adda247"
+            "title": "Homepage | Haryana Government | Birth Place of the Gita | India - Government of Haryana",
+            "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBRNkZwUkhqbWZlcjlhT1F0QW5ITERHcmJkbDFHQ0hpOUJ1TFdrSHVvNUx4ZHdIUGpaaFV0T08ycUM?oc=5",
+            "date": "Fri, 30 Nov 2018 21:01:23 GMT",
+            "source": "Government of Haryana",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "Government Jobs Without Exams 2026 : Check Complete List and Other Details - Careers360",
-            "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ONEdobElVc0lIQVFsc1RrdGZsdEFJd2JnaE53VnBvYzVlWWljQUV6SmdsZ3E4M1lWa1BUeGtPM3FrQkJKVWVaaFlDb0RZTGNnazdoaUp4aHZkbVREQVRmS1pHQl9XbGlSU2k4R3V5amg1dm5OM25ncklSUkg?oc=5",
-            "date": "Tue, 04 Jul 2023 05:40:28 GMT",
-            "source": "Careers360"
+            "title": "E-Procurement - Bihar Govt. eProcurement",
+            "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFByNmFRRUk5VW1NUTRxdFBMbEdCX1FYN1ZfYXE2TkZEUnNKREpSWkRvQVg5MUpCU0hxeGQydDgzbVYxMTNNNWQweXNFS1lDUDU1MGtxSFlhU1hJVW5nSFQ1OUVmWU1pSjVRcWNBQnpyMnhpY21EbVhYejRn?oc=5",
+            "date": "Tue, 13 Oct 2020 08:47:15 GMT",
+            "source": "Bihar Govt. eProcurement",
+            "state": "Bihar",
+            "district": "All"
         },
         {
-            "title": "Government Exams For Women 2025: List of Exams for Female after 12th, Graduation - Jagran Josh",
-            "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPN1BUYkJrM0hpVFpTVGZqVHM1SHBWMEJOSmJKZlNkOEluVHBJOXVHRm1URFo2Y19manRLemZJTnFtMmlXY000eG9IQ0JXRWo0MTloNTZmRnBpdHQ1UTNOV3pOT2wyMlJSVTJOV3pVM3dkQWMzY0NaUlBrb2FBRllnQlU3ZlNxSFdEZXR3RXh3NExUdEtsMjIySXJYNmh2Y21TZkx5TWw2dDk?oc=5",
-            "date": "Thu, 06 Mar 2025 08:00:00 GMT",
-            "source": "Jagran Josh"
+            "title": "Home | Government of Goa - Government of Goa",
+            "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE16OThFU2pBM1A5R1ZiRGVkY0hJWVBqSmgtUElnVmxUWnZkVHVUci1CRE55UVU3WTJ2Q1F3?oc=5",
+            "date": "Fri, 29 May 2009 02:50:59 GMT",
+            "source": "Government of Goa",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "Upcoming Government Jobs 2026: Latest UPSC, SSC, Banking, Railway, Govt Job Notifications, Vacancy - Careers360",
-            "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5vSmR2SElZMHZGbUpUakVKZmxMb21qeV9MYk1OUGlTdTZpSGZUMm9yTVdTSFlSSEVVZTR4b1VlWXpFYWs0UmV5TE5jbHZUZWVCaVBXREdGQl90b0czNnpibGRqQjZES0JacXRj?oc=5",
-            "date": "Thu, 29 Aug 2019 00:21:06 GMT",
-            "source": "Careers360"
+            "title": "IIRS-ISRO Outreach Programme - IIRS",
+            "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1YVXBDTWNCdWhnVmhyMnJRbGdLMWhyS21nWkpDZ2J4emdTY3U1OTMwUWxtMmR1aExXWVZvMEtfaEVVQ3lj?oc=5",
+            "date": "Wed, 08 Apr 2015 15:59:48 GMT",
+            "source": "IIRS",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "SSC Calendar 2026 Out, Check Official Notice & Exam Dates & Notification Dates - Career Power",
-            "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5odFZNZ2hPbXcyTDFmMW1McE1uRWhRczdhM0VEZFIyRVRPLXktZ085R2U1bG1JTnN3NUlnQXdvX0lpMkF2d0w4RmR6RzlPR0pFTHFSdkpUWQ?oc=5",
-            "date": "Thu, 26 Aug 2021 08:14:57 GMT",
-            "source": "Career Power"
+            "title": "Uttar Pradesh at The Heart of India - Invest UP",
+            "link": "https://news.google.com/rss/articles/CBMiPkFVX3lxTFA5YXg0STlGaS01NndLdVhmUEZGblBzWElFSXJOUENxWFFIRzd1Q2I0b202dFpHYXNkOUpWd2hn?oc=5",
+            "date": "Sat, 25 Sep 2021 23:56:17 GMT",
+            "source": "Invest UP",
+            "state": "Uttar Pradesh",
+            "district": "All"
         },
         {
-            "title": "Upcoming SSC Exams 2026 - Check CPO, CGL, CHSL, MTS, JE Exam Dates, Eligibility - Careers360",
-            "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB3N1ZNbWVNZVNRa0RjOW1xV1B1eVZjT2d1czFTbEtRNmdtM3VtcHlwbk1uaUlCUEYyS0RQRGJtWjVCSjV4ZXJUQU5mZkNpR2hIYURQNnNsWWR4WDRidUs3WGc1Yw?oc=5",
-            "date": "Mon, 18 May 2020 09:01:50 GMT",
-            "source": "Careers360"
+            "title": "Madhya Pradesh Invest Portal - mp.gov.in",
+            "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE03a1dQOE1pMWk0eW1scklpWjBhZndEOVRmOGN4ZXUyV2FxZF9uNFdBVG1xMGlUS3lDRWx2Y1FIcUpCU1k?oc=5",
+            "date": "Wed, 09 Jul 2025 08:08:18 GMT",
+            "source": "mp.gov.in",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "SSC Online Coaching Classes (CGL, CHSL, GD, MTS, JE, CPO & Other) - Adda247",
-            "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE84dEw3cy1xLXF5Z21BSndiTG9sQ29iLXJWaGh6czZzWDRmRmZTTUhXeERSMlhnQWd1ZUNLSm9mMWp5eXNpamprLU94NmZRVzZiVE9TTHNmSG9QZU5Ha3Vn?oc=5",
-            "date": "Sat, 18 Jan 2020 04:35:34 GMT",
-            "source": "Adda247"
+            "title": "Recruitment - kabirdham",
+            "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5SYks2dEtCeGZ3YkdQRVEtaTlvLUN2XzVRZ2Q1WEJBRUh1Y0ZTcTN1WlhabGd3WTYwRDJaMy1mNTdBQ2JIdG1BTDlPWmg2WS1hM3lIbFhwY3ZHLUR3ZkFQLVVvaVZVdw?oc=5",
+            "date": "Wed, 02 Jun 2021 07:17:42 GMT",
+            "source": "kabirdham",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "Common Eligibility Test (CET) by National Recruitment Agency (NRA) for SSC/Railways RRB Recruitment 2021: Check SSC & RRB Posts to be recruited through NRA CET - Jagran Josh",
-            "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPWl9YYm1JRnVSb1NkMHNkWG1KMHZmTXhOclZyZUxFd1dGcmlzcnJwbDFmYWIxTXlYRks5V21jWlV2Ylc4a3IzcDVCMVY2Tm5kVXpsY3BOVUFVanZveFlsMjl4R2UyU3dsSTZfblMxeVpCVVZSYmYwMTZuNlFDTE1xQmRXN19QVURLSlhnQkNSVmhpV2Fydlg5QzNWazF5Wjd5cUg0ZXJadDZWb2NXY3hRUV9wVmQ5ZFJ1ZGN0YkQxWWNsSGpoQXFUOWEyaHNfTVI0QU9lZUxXRmZjTVRHNGZNZWdHdVQ0eTlUNnhEMTdvT1NpRmJ1MHg0?oc=5",
-            "date": "Mon, 07 Sep 2020 07:00:00 GMT",
-            "source": "Jagran Josh"
+            "title": "India AI Impact Summit 2026 - India AI Impact Summit 2026",
+            "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBRWkJ4aU9jVmhzZGpPOXVISi1BMkpJRUdyUGloTU9oS05tSFhndi1PV3RINnRJRWt1V1Q5RVN1UkpWRkxW?oc=5",
+            "date": "Fri, 06 Jun 2025 08:58:57 GMT",
+            "source": "India AI Impact Summit 2026",
+            "state": "All India",
+            "district": "All"
         },
         {
-            "title": "SSC CHSL Eligibility Criteria 2026 - Check Education, Age limit, Nationality - Careers360",
-            "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1MMW04NmN6Qk44andpTms1ZTlDSnNSRnota2N6UkVhYW1xV1BvVUhYc3dCNTRoWUhrcHFVSGtVbHpUQlN2bHpBWDk5dmVFT25TQmdPaGF1bjN2a0RTclRGMUFuTTNrZm9jSlZfalk3NWxtNzI3ckxpUk1NZnpWUQ?oc=5",
-            "date": "Thu, 31 May 2018 11:43:09 GMT",
-            "source": "Careers360"
+            "title": "CITY & INDUSTRIAL DEVELOPMENT CORPORATION OF MAHARASHTRA LIMITED - Cidco - cidco.maharashtra.gov.in",
+            "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9MRjVhel9LZThyd2VvVVNodi1Dajcwc095ZDB5Nk5JZkh0bUJ3Uk1zcXJtLWJMbTBFTnlIVjlac2lGdng0VDhmYg?oc=5",
+            "date": "Wed, 25 Nov 2015 10:54:48 GMT",
+            "source": "cidco.maharashtra.gov.in",
+            "state": "Maharashtra",
+            "district": "All"
+        },
+        {
+            "title": "Aadhaar Seva Kendra - uidai",
+            "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTHZzdFFHMTAtX0swWm5CREc3SGpUektSY0psUXU0U2N5OE9jZlpmYVY3aHlhSW1WTi1JVkU4cEVCZWJmeExmTEVDR0d4N0d2d0Y2RnBUVkgwb0NkN2JZQzVCczJjcDdMbDZnQWdHbWdjWm94c0UzSVIxbS1iSVZsdGpEZzk?oc=5",
+            "date": "Sat, 03 Sep 2022 04:26:56 GMT",
+            "source": "uidai",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Recruitment to the posts of Scientist/Engineer 'SD' and Scientist/Engineer 'SC' - isro.gov.in",
+            "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE52OEE5UWR2cUtFZUhqVldFMS0yNGtIRUFpYXNBUzFwYXkzSEhuYXZ6NHF5dXZxS1d1YWJXOUozUVNMN1U1SkRKQjNJUkVhdHNETDBoOExOa28?oc=5",
+            "date": "Thu, 22 Jan 2026 08:00:00 GMT",
+            "source": "isro.gov.in",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "High Court for the State of Telangana - High Court for the State of Telangana",
+            "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ubFltVkRseHlxRkNhaUU0V2Z2a3h5bzl6dVo4M0RWalNrRlRZSjF5bmg1T1BnSUFWYnF3MENnNmo2ZmFOM2VoQg?oc=5",
+            "date": "Wed, 14 Aug 2024 17:59:41 GMT",
+            "source": "High Court for the State of Telangana",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Home | Advanced Centre for Treatment Research & Education in Cancer - ACTREC",
+            "link": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE5FeUZHcWhiUGNtZG1fSTZPd2NfS2lSSmI1cGdNZEg5RlBIM19reUNEYWxkTm5KWmtLckE?oc=5",
+            "date": "Sun, 11 Sep 2011 16:20:19 GMT",
+            "source": "ACTREC",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Welcome to Council of Architecture - Council of Architecture",
+            "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBzOWpDQTN0N3JjLWdxV2RPMzlFT0VpVm9wUmRDdEVlMGI0eFZrUjJyekFIcGdiVmVjblQw?oc=5",
+            "date": "Fri, 01 Apr 2016 07:56:10 GMT",
+            "source": "Council of Architecture",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Homepage | Transport Department, Uttarakhand | India - Transport Department, Uttarakhand",
+            "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1kUkhNa0laM1o2bHlwaGkwOVQzMzlDQkw3NDlPbWgyNXZsay03Z1dFV2VUV2d5T2JkTkVUVnUwci1NUQ?oc=5",
+            "date": "Tue, 25 Jun 2019 17:45:12 GMT",
+            "source": "Transport Department, Uttarakhand",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "RIICO - RIICO",
+            "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1xNEc2blVBU1NvX0N3OGFOd01OUmZncE5iRDlvRHU1UHZhU2s4M1Y0ek55ai14b3V6ekdGX3d3Z2pZaXJMWWc?oc=5",
+            "date": "Tue, 31 Jan 2023 01:55:36 GMT",
+            "source": "RIICO",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Recruitment | District Balodabazar - Bhatapara | India - Balodabazar",
+            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1MWDBKbmdyMlExOHZuQkhMeG16TmNGV3hFdHRmcS1aZHNZTW45WG5kZlpva2E1STMwb3NJVFNmZVVRVWxtbHF1cFFvQmtKSjRyQmZNUG5GWXEycVQ4NHNnMWNHY3hSNHNQcUE?oc=5",
+            "date": "Sat, 23 Dec 2023 10:27:49 GMT",
+            "source": "Balodabazar",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "PAN Verification - CBDT",
+            "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9zNWRJWFF0YnlKSEFDSFQtS0FyQUQySnJDWDVWWl8wc3M3VjVZNkRXT3JzZHg4UEpxeG9KZmVZUldYVU5xVTd2cjVrY2NFQWhWSDlYV3dSQQ?oc=5",
+            "date": "Thu, 06 Oct 2022 14:51:18 GMT",
+            "source": "CBDT",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Recruitment - Janjgir - Champa",
+            "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sUXF4TktBd2k5RUhjU3RsRnFRcUdQdnJ2bTlwUWdiY1dGWkhvczAzdVkzOHB0RDg5Ni1VZFl3c09RM1ZQeUVFOHEzZXpyME9lU3owTFVTQmxzcXliLW51LTRDRWJoZG8zM3BWZGNn?oc=5",
+            "date": "Fri, 08 Jun 2018 18:23:31 GMT",
+            "source": "Janjgir - Champa",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Recruitment - balrampur-ramanujganj",
+            "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1NaWh3QXIwNklyaHJWMlhYNUlmbVBDNVc2SFNyOVA1Q05nbnJCVklINWNkbS0yem1sRlBNanl4RUM3U3JuNDBsVTYwNUEwVVlHdjRyTTBvdGZNclIyQURvUWdFb1ZBYjQ?oc=5",
+            "date": "Wed, 03 Jan 2024 03:46:45 GMT",
+            "source": "balrampur-ramanujganj",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "e-Pramaan - e-Pramaan",
+            "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTFBiR3lUeXh3em1JVE9jM1NEZ1R5S25FdUV2REhpckNCazBEdUJiVWdYSjl2MGNtQ084TWpzSg?oc=5",
+            "date": "Mon, 31 Aug 2015 22:54:03 GMT",
+            "source": "e-Pramaan",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Recruitment - Surguja",
+            "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE93YVdvRDJHZXp6ekZSeVYwYjRXcDQ0TVZiQ1F2UW81eEFwbGNmNWxiYjcxVExNbWtmczhGRGhxNUpCSzFrZDk5b0JuRXIxOGV2ajlVWUFSemp2cTk2d2xNYk8zdkw?oc=5",
+            "date": "Tue, 19 Dec 2023 15:07:22 GMT",
+            "source": "Surguja",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Recruitment - Bijapur.gov.in",
+            "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE12YUNvQll3XzJPYUJWUXhSWjJhYjVoOVhxNFFQakc2WGRFYWtCSVdyQndDVDlUYmRGWnN0ODZjNkJaQlhUUU9IbFFETTJ2SG9zY0dUbm9acWtDQUZiRGpHVVRqcnY?oc=5",
+            "date": "Thu, 14 Jun 2018 23:22:13 GMT",
+            "source": "Bijapur.gov.in",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Recruitment - bemetara.gov.in",
+            "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5aNHRPYkIwalpTaGtueVM2V0ZKajFYa0lxSF9IQm5lUjgzTjA5ZDhwMHlrOVp1WnhST0pXeEoxaG1CT3EzcEVQQzB5ckNOX3VfdHI3T1cxT29OY1N2b1g1UkdEQndMZw?oc=5",
+            "date": "Thu, 22 Jan 2026 08:00:00 GMT",
+            "source": "bemetara.gov.in",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Permit Charges - Gir Online Permit Booking System",
+            "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1EVEw0NERMQ2JUN1ZIdlFieTNtdEE5dzl6R2ZJRFMwNE5nelZHTWd2WGViX19jUVJQMzJQZXFXZENnb2lub0x5cXBmdlZVYnF4X1NMcm9zdnVNUGJuM1NUTE9hdUFCUlJk?oc=5",
+            "date": "Fri, 11 Jan 2019 18:31:04 GMT",
+            "source": "Gir Online Permit Booking System",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Recruitment - \u091c\u093f\u0932\u093e \u092e\u0939\u093e\u0938\u092e\u0941\u0902\u0926",
+            "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9vbnZTSklOQmx1elRCT2NzWm9tZ3pOSWcyTjFRdlRyQkpHckpCZS12eVV2Z1UtdE54U3V5MWp2REU0czlPb1lsN08ycm5fTkREMm05TWM2ZlM3X0RuT240UHUtTnA3QV9L?oc=5",
+            "date": "Sat, 09 Jun 2018 00:59:07 GMT",
+            "source": "\u091c\u093f\u0932\u093e \u092e\u0939\u093e\u0938\u092e\u0941\u0902\u0926",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "| Unified IT Platform for DDUGKY and RSETI - Ministry of Rural Development",
+            "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5ETXhYX3ItZk9USWx2eWw5QWtZOWtRT3ZuX0RGSWlsQVdNLU44ZnVlWHRTeXZfTFR0c3JWZktvTUl1dm8?oc=5",
+            "date": "Mon, 24 Mar 2025 10:45:19 GMT",
+            "source": "Ministry of Rural Development",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Recruitment - mungeli",
+            "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE53bURiXzJ5V0FveGgwcVdHSGZXSWNKamNuUG85WmtxQXJmNlRCbHdlc2ZtZFhjMlJQNURpRnJOdWhFYy1yQlpkY2kwbUtOR3U3QTVyVE1GdkRxMm9sZkYwRFFVNU4?oc=5",
+            "date": "Wed, 31 Jul 2019 06:41:46 GMT",
+            "source": "mungeli",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Home | Skill, Employment & Entrepreneurship | Government Of Assam, India - Skill, Employment & Entrepreneurship",
+            "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9OXy1Halh2YlFFTlpjbmg4YUJpWHRlRzBCQVhtWC11bFl2UnFlSFAyU3BaUnhVNGNWbmhiV1VkbmQ?oc=5",
+            "date": "Thu, 14 Dec 2017 07:34:42 GMT",
+            "source": "Skill, Employment & Entrepreneurship",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Odisha Tourism : Visit Odisha | Travel & Tourism | Official Site - Odisha Tourism",
+            "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5LTjJ5S09pRHR6ZG1tLVAxUDdNWHhLelBBZUUtdFd1U19zZU44dFJCQjM1U2FGd0lzTVg3YnowUjZFT2x1Znl4NzVxeERkdzNkcEdHUTdtOXR5S0lOQm9xNWNB?oc=5",
+            "date": "Fri, 31 May 2019 20:43:46 GMT",
+            "source": "Odisha Tourism",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Recruitment to the post of Scientist/Engineer 'SC' in the disciplines of Civil, Electrical, Refrigeration & Air-conditioning and Architecture - isro.gov.in",
+            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5fdjI1RTVTenVOTm1QQ3lrQnF6SU9lMmQyeUxtbWsyeVE5c2p3UmR6OEpEa2lCQ2dLdmI2ekpuVEt5LTQ2SWNWcWdfTU15c3pSbFhpSjZLcGNidHM?oc=5",
+            "date": "Mon, 23 Jun 2025 12:07:36 GMT",
+            "source": "isro.gov.in",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Tax Information and Service\u200bs - CBDT",
+            "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1tcXh6TGlSRDZyUWxWNkdKbmxOT0F3NFFOMjFfYVNkd096bVhrN3JMejFnOExCOUFWT08yZmhkcVZ4MjBHOFVHS01XNDIxbV9mY0otcWhqVFBMNUdOMmp0RDl3TnZaU0lPTDgtTjhESlozd1U?oc=5",
+            "date": "Wed, 25 Apr 2018 18:26:03 GMT",
+            "source": "CBDT",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "eCourt | High Court of Madhya Pradesh - High Court of Madhya Pradesh",
+            "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE00cTBlRGlaTFNxTVdlV3VRV0FCUkRmV1NxdElORGV0Sl9YWlJnYXZEQnVvWnlna2lQMDNGSk5SNA?oc=5",
+            "date": "Tue, 14 Nov 2017 11:26:13 GMT",
+            "source": "High Court of Madhya Pradesh",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "AP ICET-2026 - Apsche",
+            "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE55bzc3d052M3FvazBZbVBJUkZPTy1FSV9hMnExLVVEcW9CbDhaellwRDJPRURIT3oxSGJRa0ppM0s1N29PeXZSajFLMy1USTV4dGRScktjZ2Nhcm0xTnBMOWR3amVxT1hyQUJHbGtzY1dVa25VRWNybXEyX20?oc=5",
+            "date": "Thu, 05 Feb 2026 12:32:04 GMT",
+            "source": "Apsche",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Welcome to Daily Cause List System of Punjab & Haryana High Court - Punjab and Haryana High Court",
+            "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5xaFA5TFhmbEs0YnYxaHY1VGdjQ1lpNFdQdEFHYXZDcExuSHUtZzBrakdmeGJOOXM0MGhOeFdpLWFJR1c1aXFhVlVoYVhxRnU2a29ZNg?oc=5",
+            "date": "Tue, 23 May 2023 05:53:25 GMT",
+            "source": "Punjab and Haryana High Court",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "2025 - APRIL - JUNE KERALA PUBLIC SERVICE COMMISSION - Kerala Public Service Commission",
+            "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNnVKTU9pcXdOMzYweHVOUWdRaVhYeEZqQlg5UnNFSG1pcUxZanNQdHJzeWdLSDIzZ3VFRTk0cWRWRW1SYm5DaWM3SmprNURZT1BxYThwVVRNMnM3eERIRXB1d3U5NmdRZXFuTWp5TXJSMkZEWTJrb2RpaW54LWhaaFh2Tk0xeENE?oc=5",
+            "date": "Wed, 01 Jan 2025 08:00:00 GMT",
+            "source": "Kerala Public Service Commission",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Untitled - CBSE",
+            "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB5dTdUNk1paURhV0JwcTJoWHZqc21KOEFMSF9nMTZqOG9SckNvTlFHX2RzVVpJNGNCZXRYcktNbTVLTkl5QkxZajMyczZfcERONjVpcUN3dXlmRTRZd1Buand6UHozeExZUnB2QXptdW15ZXNnZWV2NW9GSQ?oc=5",
+            "date": "Tue, 09 Feb 2021 08:00:00 GMT",
+            "source": "CBSE",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "\u0915\u0947 \u0940\u092f \u092e\u093e \u093f\u092e\u0915 \u093f\u0936 \u093e \u092c\u094b\u0921 - CBSE",
+            "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdzh1NXh6aUNTSS1teE55SXgtblF5b2VCeVVZdTdUSURoa01fTUU1V2V1Q1doU29aS0o1am9LRzlTdlpLVjlpZUxVaDIzQzlHM0NmUDNXSXlqNWVoVlZaYTJMNjlvX29PUUduNXlRRHBDdVlSMllmY25LdFJ1d3kwbA?oc=5",
+            "date": "Tue, 02 Dec 2025 08:00:00 GMT",
+            "source": "CBSE",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Notices -> Recruitment (District Judiciary) - Calcutta High Court",
+            "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14bXFwNjMzcHlieDNnRGt3a0NOWWNWTXoyTllibWpKWWllS2RWSG9uZVN0WWFXUTU4VlppVVZsLUdRSzhkUmpCT0pSRHEwSzdKT1NsdS1OMGdiY1Q0aFM3cU9VSUs2V1V5eTBIRS1JTThZSkg5SlFmbm0xOA?oc=5",
+            "date": "Tue, 28 May 2019 04:05:24 GMT",
+            "source": "Calcutta High Court",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "List Of Nodal Public Grievance Officers - CPGRAMS-Home",
+            "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBwMDdEZ09aeEVTY19EU0NJTEYzc0VpTFNQdE92V1NtY0dfZG5IajNyOURjZ2lxZ0Z1ZG9PMm8xQTVXeTJISFIzWVVGZVBlUTJpZnhSTF9PMA?oc=5",
+            "date": "Fri, 05 Jan 2018 12:00:48 GMT",
+            "source": "CPGRAMS-Home",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "All Updates - Supreme Court of India",
+            "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBvR1pBR2NNWnotZjlQOGJfWlJSTk5iSnhnVTlfSldlQkNrd2xuYUdoNHRfeEdPYUVxRmNCUUpPYUtTSzNaWUhwbTBEOA?oc=5",
+            "date": "Sun, 28 Jan 2024 06:22:57 GMT",
+            "source": "Supreme Court of India",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "kolkatarrb - RRB Kolkata",
+            "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8ydm1USExQS3hrcEhYUGNDejlPeHVVOWMzMEdKeW5mU21sSDh2Y1o4WUtGWXRqOEs5dkFBRTVRTEZpdERMWFRWeTlEODc2bjFnOFdLZEpB?oc=5",
+            "date": "Tue, 30 Jan 2024 10:08:24 GMT",
+            "source": "RRB Kolkata",
+            "state": "West Bengal",
+            "district": "Kolkata"
+        },
+        {
+            "title": "Programme Calendar - Dcmsme",
+            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5tLUF6YVFkMVI2bDM0R2hRUURTTy11dHNkdlI1TTIySDNnZ0lObUxyMUJpTkREc2dpOGJYTEg4aVVyazFuTzRRb0NkSS1SeDRtaWtjam9yVVY5UE0?oc=5",
+            "date": "Fri, 23 Aug 2024 11:03:25 GMT",
+            "source": "Dcmsme",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "COMMAND, CONTROL AND COORDINATION OF EMERGENCY RESCUE OPERATIONS ON THE OPEN LINE - Indianrailways.gov.in",
+            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeGxiYURPR1NfWXFVaVJDTWQ4ZU9fWDNmSVNUWkUzV0dKQ2xfWDExMVpEeXg4R0RkMEY5LTZZcjdCc1p1R3E3RjUwM3h1eGlOY2l2VGRIbmRxREdPTzRQRlA3RHNLQjJBWkItT1hwTXhObEhlelZ0cmFUNkMyWFhicks4b1Y0aEVDMjd6emZ0WkN2ekxURTJuUw?oc=5",
+            "date": "Sat, 22 Feb 2020 22:27:14 GMT",
+            "source": "Indianrailways.gov.in",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "North Eastern Railway - North Eastern Railway",
+            "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONWtEZ214dFVKTWZxSlBPaWdiSjI5TnNBWllOMV9qcG9KUkE5MktHV2tXR1FHUVRMSTRyMk85YXpwcUdVdkdkNUhjNlRjM2NjY0wyMTVfV0s2SlU3YTZYby1wZ0Y0NndhY0h1NHQydS1VdHZ0TFhLRUxFT3EwejhCb3laOFZVenFVQklVdncybFoxZFJsd2phLTJBNWhXOWNyd0lMY2xJTk1yQ1k0eWM0SmhWZzdoZw?oc=5",
+            "date": "Thu, 02 May 2019 10:39:49 GMT",
+            "source": "North Eastern Railway",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Recruitment Related Documents in West Bengal Circle - India Post West Bengal Circle",
+            "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE95endxX25uY0V2Tm8zMnI0ckNiYVhIUGRsUnp1aFAzLUFaUm0zSVNDNm40WjNwb2MyWWczd0RpdnNPdmFrb1l5Mk1vYzdSZEFGSjA4?oc=5",
+            "date": "Tue, 14 Sep 2021 14:31:59 GMT",
+            "source": "India Post West Bengal Circle",
+            "state": "West Bengal",
+            "district": "All WB"
+        },
+        {
+            "title": "About Aadhaar Paperless Offline e-kyc - uidai",
+            "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOR3VkVTNrQVVFZjYzaWx3QXlYN25kcGFxNF9RdTY4am5odmhGak5FUmNTX0VJcXNaZmYwV2w3cmU1a09XOEotSnIwSjBNSHk5RHV4Ry05YTlXNFFXenFKX0d1TDFUdUhrREUwMXExeVItUnFzYjc2d1JiUkVrZTJfV3dGMTF0UkFGbDJMN0NDY29SNDVlaERhZkRJYlBTQnFMRFpFTHZ1TjZBQVQ4Smc?oc=5",
+            "date": "Fri, 01 Feb 2019 05:19:00 GMT",
+            "source": "uidai",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "DoIT Universal Content - Government of National Capital Territory of Delhi",
+            "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55OGRLTkNCQ29meFNMSEo4Rjg0Q2M3YWVjU3MwY3FNQzVCQUIxdExfZThHb05JNlg1LTRXQ3lPQy1Ick9yWTJ0ZFN2NnNidXZNY2NZaV9PbUtlSG04ZGxiSkdtbHN2OHRPMFBOWFA2TmVjWmg0V2M1bEtYVWJXQ0k?oc=5",
+            "date": "Tue, 22 Jul 2025 10:52:03 GMT",
+            "source": "Government of National Capital Territory of Delhi",
+            "state": "Delhi",
+            "district": "All"
+        },
+        {
+            "title": "Untitled - Ministry of Statistics and Program Implementation",
+            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOR2dsc0JTM1hnUS1vM01TMmM0SzM1VXF1bV9jMHBKUlVLY2w0Z3dqRktrZ2xaOXoxR19Pb3RvOEs0MUZURzNiNjdGV1pEcXdaaXdyZWE4R01hSDAyckMzUGhEbEYzZEw0aWxCSnRGb3R2WDBCOHZzaTB4ZkhqaE5PMXg5UDN1UHNBWGRLNWR5MnpVZHdIWUFvbA?oc=5",
+            "date": "Wed, 16 Jul 2025 00:30:51 GMT",
+            "source": "Ministry of Statistics and Program Implementation",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "AIS Branch - upsc.gov.in",
+            "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB5TjUzdF92WWZlWkNEWGtQeHpiZWdoUllGYnhlWklncmNtRGJmSW02NlJzSnNrYl9scjZMQjVud3FhcFZfN2RiWndMZTZpc3dGZXFQX3k5OXMxLW4xRlk1WUJXODQ?oc=5",
+            "date": "Mon, 21 Jan 2019 08:42:35 GMT",
+            "source": "upsc.gov.in",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Recruitment - beed.gov.in",
+            "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9mOHVZQXBqUjl3V1NiLWs1VW1HWm5zM0NvM2lPVDVRYUgtU2RqZ2VUMW9ZenBhUnpKYkdqQXRObE9TZWpnSWtUQkxIUi1oVm10N1ZvWnZqcVBuRWtPSHByXw?oc=5",
+            "date": "Thu, 17 May 2018 12:05:17 GMT",
+            "source": "beed.gov.in",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "SCIENCE - BOARD OF SECONDARY EDUCATION, RAJASTHAN, AJMER",
+            "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9BemZ3clVXWWJldWJ0SkxIOVVmNzRZXzZJNjdQTGhVWXhhblhsOXlWNXVGdFQxTExzN19SZi1ISUpEQmNHLTJqX1ZrWFJ1UDc0ZXBZaDhVWF9OZnBwT29Dd0Vxa2JSdm8yVUQxem92V2ZMdw?oc=5",
+            "date": "Sat, 17 Sep 2022 09:53:21 GMT",
+            "source": "BOARD OF SECONDARY EDUCATION, RAJASTHAN, AJMER",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Welcome to Arunachal Pradesh State Portal - Arunachal Pradesh State Portal",
+            "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE13elg3WWZRZER0UEUtN2EySmJ4RWlYaE1XOXFLUnJqN1BndlFobkxPcXFGTUNFeHczdVpITWIyc2tPTzlTOXRB?oc=5",
+            "date": "Mon, 14 Aug 2017 18:14:13 GMT",
+            "source": "Arunachal Pradesh State Portal",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "The Indian Institute of Mass Communication - Indian Institute of Mass Communication",
+            "link": "https://news.google.com/rss/articles/CBMiN0FVX3lxTE44MDNlUExqZVJTR1FhNzVLRXFFU19OU19YdGp6OEx2Xzl0NG9WMnhtSFhadGxjSEE?oc=5",
+            "date": "Thu, 02 Nov 2023 22:59:21 GMT",
+            "source": "Indian Institute of Mass Communication",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "Agnipath Yojana - myScheme",
+            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5Bd0xxVXlXS3BKMU5uNU0tcWE4dWZiTWtZV2FOUnBWWk1uRFBDc3ZnZ1RySGxXcS05a1pVZHFZZUVleGx2azNkRjFxQXR0Vjg?oc=5",
+            "date": "Sat, 01 Apr 2023 23:02:47 GMT",
+            "source": "myScheme",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "West Bengal Medical Services Corporation Ltd. - West Bengal Medical Services Corporation",
+            "link": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE56TkVDSHdjdDdHZ19jczcxN2c3bE16NGZIcGMxc1ZxNDN3bVhiUHhTd3c4VktlYzlWS0EySzVR?oc=5",
+            "date": "Sat, 29 Oct 2016 23:29:33 GMT",
+            "source": "West Bengal Medical Services Corporation",
+            "state": "West Bengal",
+            "district": "All WB"
+        },
+        {
+            "title": "National Service Scheme - National Service Scheme",
+            "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1qNUo5R0pEYnZseDctNnEwV0JkbDB6bGg0MUJXdDhHTEV4MlV1bE5rR2tTTThQQzJNNnlSRWlQSHJ5YWZBNW5mTWpR?oc=5",
+            "date": "Tue, 25 Jul 2023 07:00:00 GMT",
+            "source": "National Service Scheme",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "higher secondary first year / second year examination - Directorate of Government Examinations",
+            "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA3cEYtSk9Jdjh5RThPR3JEc3ZvMkQ2ZjFiVjRoY3NsaG1vZ1pua0ZZcjBVTWItbVpqVVE4R2N5YXpKYVprQlN0SE1lSTdSME9lM1RYajh6RjRaZw?oc=5",
+            "date": "Sat, 02 Jul 2022 00:45:56 GMT",
+            "source": "Directorate of Government Examinations",
+            "state": "All India",
+            "district": "All"
+        },
+        {
+            "title": "WEST BENGAL POLICE - West Bengal Police",
+            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8zanJJVWJpRGVDUHdMR2JndVlXVlhrQWFVYzlFUFlOeThzeVJ6WDA5dmQxYVVTTWdzZEtlT0paTGlsWE1YaXUyUW1Uc21OczRtd24zSmltSmdQbHhwLW41U2pDczdlczFFcGc?oc=5",
+            "date": "Sat, 25 Sep 2021 03:28:24 GMT",
+            "source": "West Bengal Police",
+            "state": "West Bengal",
+            "district": "All WB"
         }
     ],
-    "last_updated": "12 Feb 2026, 04:52 AM"
+    "last_updated": "12 Feb 2026, 05:24 AM"
 }
