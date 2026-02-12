@@ -8,7 +8,8 @@ from datetime import datetime
 ELIGIBLE_TERMS = [
     "12th pass", "higher secondary", "ssc", "constable", "data entry", 
     "clerk", "railway", "group d", "technician", "gd", "police", "mts", 
-    "forest guard", "jail warder", "army", "navy", "ldc", "udc", "gram panchayat", "anganwadi"
+    "forest guard", "jail warder", "army", "navy", "ldc", "udc", 
+    "gram panchayat", "anganwadi", "fireman", "driver"
 ]
 
 BLOCKLIST = ["admit card", "result", "answer key", "cutoff", "syllabus", "b.tech", "mba", "hall ticket"]
@@ -22,8 +23,8 @@ def get_location(text):
         "alipurduar", "bankura", "birbhum", "cooch behar", "dakshin dinajpur", 
         "darjeeling", "hooghly", "howrah", "jalpaiguri", "jhargram", 
         "kalimpong", "kolkata", "malda", "murshidabad", "nadia", 
-        "north 24 parganas", "paschim bardhaman", "paschim medinipur", 
-        "purba bardhaman", "purba medinipur", "purulia", "south 24 parganas", 
+        "north 24 parganas", "south 24 parganas", "paschim bardhaman", "paschim medinipur", 
+        "purba bardhaman", "purba medinipur", "purulia", 
         "uttar dinajpur"
     ]
     
@@ -31,7 +32,6 @@ def get_location(text):
         if dist in text:
             return "West Bengal", dist.title()
             
-    # State Detection
     if "west bengal" in text or "wb " in text or "wbp" in text or "wbpsc" in text:
         return "West Bengal", "All WB"
     if "bihar" in text: return "Bihar", "All"
@@ -42,7 +42,7 @@ def get_location(text):
 
 # --- HELPER: GET DATES ---
 def get_dates(title, published_date):
-    end_date = "Check Notification"
+    end_date = "Check Notice"
     # Look for dates like 25/03/2026
     match = re.search(r'(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})', title)
     if match:
@@ -58,11 +58,13 @@ def get_jobs(is_upcoming=False):
     print(f"Searching jobs (Upcoming: {is_upcoming})...")
     keywords = ' OR '.join(ELIGIBLE_TERMS)
     
-    # WIDEN SEARCH: We search 'recruitment' OR 'vacancy' to catch everything
-    query = f'(recruitment OR vacancy) AND ({keywords}) AND (site:gov.in OR site:nic.in OR site:wbp.gov.in OR site:indianrailways.gov.in) when:30d'
-    
+    # STRICT SEPARATION
     if is_upcoming:
-        query = f'("calendar" OR "short notice") AND ({keywords}) AND (site:gov.in OR site:nic.in) when:30d'
+        # Look for future indicators
+        query = f'("calendar" OR "short notice" OR "upcoming" OR "soon") AND ({keywords}) AND (site:gov.in OR site:nic.in OR site:wbp.gov.in) when:30d'
+    else:
+        # Look for active application words
+        query = f'(recruitment OR vacancy OR apply) AND ({keywords}) AND (site:gov.in OR site:nic.in OR site:wbp.gov.in OR site:indianrailways.gov.in) when:30d'
 
     jobs = []
     try:
@@ -81,7 +83,8 @@ def get_jobs(is_upcoming=False):
                     "end_date": end,
                     "source": entry.source.title if 'source' in entry else "Govt Site",
                     "state": state,
-                    "district": district
+                    "district": district,
+                    "type": "upcoming" if is_upcoming else "active"
                 })
     except Exception as e:
         print(f"Error: {e}")
@@ -91,16 +94,28 @@ if __name__ == "__main__":
     active = get_jobs(False)
     upcoming = get_jobs(True)
     
-    # Dummy data for testing if empty
+    # DUMMY DATA (Only if empty, so you can see the design)
     if not active:
         active.append({
-            "title": "WB Police Constable Recruitment 2026 - Nadia District",
+            "title": "WB Police Constable Recruitment 2026 - Nadia District (Sample)",
             "link": "#",
             "date": "12 Feb 2026",
             "end_date": "15 Mar 2026",
             "source": "WBP Official",
             "state": "West Bengal",
-            "district": "Nadia"
+            "district": "Nadia",
+            "type": "active"
+        })
+    if not upcoming:
+         upcoming.append({
+            "title": "SSC GD Constable 2027 Calendar Released (Sample)",
+            "link": "#",
+            "date": "12 Feb 2026",
+            "end_date": "Coming Soon",
+            "source": "SSC",
+            "state": "All India",
+            "district": "All",
+            "type": "upcoming"
         })
 
     data = {
