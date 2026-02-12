@@ -6,7 +6,8 @@ from datetime import datetime
 # --- CONFIGURATION ---
 ELIGIBLE_TERMS = [
     "12th pass", "higher secondary", "ssc", "constable", "data entry", 
-    "clerk", "railway", "group d", "technician", "gd", "police", "mts"
+    "clerk", "railway", "group d", "technician", "gd", "police", "mts", 
+    "forest guard", "jail warder", "army", "navy"
 ]
 
 BLOCKLIST = ["admit card", "result", "answer key", "cutoff", "syllabus", "b.tech", "mba"]
@@ -16,24 +17,24 @@ def get_location(text):
     text = text.lower()
     
     # 1. Check West Bengal Districts
-    wb_districts = ["nadia", "kolkata", "howrah", "hooghly", "north 24 parganas", "south 24 parganas", "murshidabad", "malda", "siliguri"]
+    wb_districts = ["nadia", "kolkata", "howrah", "hooghly", "north 24 parganas", "south 24 parganas", "murshidabad", "malda", "siliguri", "bankura", "birbhum"]
     for dist in wb_districts:
         if dist in text:
-            return "West Bengal", dist.title() # Return State + District
+            return "West Bengal", dist.title()
             
     # 2. Check States
-    if "west bengal" in text or "wb " in text or "wbp" in text:
+    if "west bengal" in text or "wb " in text or "wbp" in text or "wbpsc" in text:
         return "West Bengal", "All WB"
-    if "delhi" in text or "ncr" in text:
+    if "delhi" in text or "dsssb" in text:
         return "Delhi", "All"
-    if "maharashtra" in text or "mumbai" in text or "pune" in text:
+    if "maharashtra" in text or "mpsc" in text:
         return "Maharashtra", "All"
-    if "up " in text or "uttar pradesh" in text:
-        return "Uttar Pradesh", "All"
-    if "bihar" in text:
+    if "bihar" in text or "bssc" in text:
         return "Bihar", "All"
+    if "up " in text or "uttar pradesh" in text or "uppsc" in text:
+        return "Uttar Pradesh", "All"
         
-    return "All India", "All" # Default if no location found
+    return "All India", "All"
 
 # --- SEARCH FUNCTION ---
 def make_rss_url(query):
@@ -45,10 +46,12 @@ def get_jobs(is_upcoming=False):
     
     # Search Query
     keywords = ' OR '.join(ELIGIBLE_TERMS)
+    
+    # CHANGE: Increased time from 'when:2d' to 'when:30d' to find more jobs
     if is_upcoming:
-        query = f'("calendar" OR "short notice" OR "upcoming") AND ({keywords}) AND (site:gov.in OR site:nic.in OR site:wbp.gov.in) when:7d'
+        query = f'("calendar" OR "short notice" OR "upcoming") AND ({keywords}) AND (site:gov.in OR site:nic.in OR site:wbp.gov.in) when:30d'
     else:
-        query = f'recruitment AND ({keywords}) AND (site:gov.in OR site:nic.in OR site:wbp.gov.in) when:2d'
+        query = f'recruitment AND ({keywords}) AND (site:gov.in OR site:nic.in OR site:wbp.gov.in) when:30d'
 
     jobs = []
     try:
@@ -57,7 +60,6 @@ def get_jobs(is_upcoming=False):
             title = entry.title.lower()
             if not any(b in title for b in BLOCKLIST):
                 
-                # Detect Location
                 state, district = get_location(title)
                 
                 jobs.append({
@@ -73,12 +75,27 @@ def get_jobs(is_upcoming=False):
     return jobs
 
 if __name__ == "__main__":
+    # Get jobs
+    active_jobs = get_jobs(is_upcoming=False)
+    upcoming_jobs = get_jobs(is_upcoming=True)
+
+    # IF EMPTY: Add a dummy job so you can verify the website works
+    if not active_jobs:
+        active_jobs.append({
+            "title": "Sample Job: West Bengal Police Constable (Example)",
+            "link": "#",
+            "date": "Just now",
+            "source": "System Test",
+            "state": "West Bengal",
+            "district": "Nadia"
+        })
+
     data = {
-        "active": get_jobs(is_upcoming=False),
-        "upcoming": get_jobs(is_upcoming=True),
+        "active": active_jobs,
+        "upcoming": upcoming_jobs,
         "last_updated": datetime.now().strftime("%d %b %Y, %I:%M %p")
     }
     
     with open("jobs.json", "w") as f:
         json.dump(data, f, indent=4)
-    print("✅ Jobs updated with Location tags.")
+    print("✅ Jobs updated (Lookback increased to 30 days).")
