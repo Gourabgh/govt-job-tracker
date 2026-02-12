@@ -13,17 +13,23 @@
         .nav-pills .nav-link { color: #555; background: white; border: 1px solid #ddd; margin: 0 10px; border-radius: 50px; padding: 10px 30px; font-weight: bold; }
         .nav-pills .nav-link.active { background-color: #009688; color: white; border-color: #009688; }
         
-        /* District Scroll Area */
-        .district-scroll { 
-            overflow-x: auto; 
-            white-space: nowrap; 
-            padding-bottom: 10px; 
-            -webkit-overflow-scrolling: touch;
+        /* DISTRICT GRID LAYOUT (New Change) */
+        .district-container { 
+            display: flex;
+            flex-wrap: wrap; /* This makes them go to the next line */
+            justify-content: center;
+            gap: 8px; /* Space between buttons */
+            padding: 15px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
         }
-        .district-scroll::-webkit-scrollbar { height: 6px; }
-        .district-scroll::-webkit-scrollbar-thumb { background: #ccc; border-radius: 10px; }
         
-        .btn-district { border-radius: 20px; margin-right: 5px; font-size: 0.85rem; }
+        .btn-district { 
+            border-radius: 20px; 
+            font-size: 0.85rem; 
+            padding: 5px 15px;
+        }
         .btn-district.active { background-color: #00796b; color: white; border-color: #00796b; }
 
         /* Job Card */
@@ -50,8 +56,8 @@
         </ul>
 
         <div id="district-filter" class="mb-4" style="display:none;">
-            <p class="text-center text-muted small mb-2">Scroll to find your district:</p>
-            <div class="district-scroll text-center">
+            <p class="text-center text-muted small mb-2">Select your District:</p>
+            <div class="district-container">
                 <button class="btn btn-outline-secondary btn-sm btn-district active" onclick="filterDistrict('All WB')">All WB</button>
                 <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('Nadia')">Nadia</button>
                 <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('Kolkata')">Kolkata</button>
@@ -99,12 +105,9 @@
 
         function filterState(state) {
             currentState = state;
-            
-            // Highlight Main Tab
             document.querySelectorAll('#state-tabs .nav-link').forEach(el => el.classList.remove('active'));
             event.target.classList.add('active');
             
-            // Show District Filter ONLY for West Bengal
             const distDiv = document.getElementById('district-filter');
             if (state === 'West Bengal') {
                 distDiv.style.display = 'block';
@@ -117,11 +120,8 @@
 
         function filterDistrict(district) {
             currentDistrict = district;
-            
-            // Highlight District Button
             document.querySelectorAll('.btn-district').forEach(el => el.classList.remove('active', 'btn-secondary'));
             event.target.classList.add('active', 'btn-secondary');
-            
             renderJobs();
         }
 
@@ -130,11 +130,8 @@
             container.innerHTML = '';
 
             const filtered = allJobs.filter(job => {
-                // 1. Check State
                 if (currentState === 'All India') return true; 
                 if (job.state !== currentState) return false;
-
-                // 2. Check District (Only if State is WB)
                 if (currentState === 'West Bengal' && currentDistrict !== 'All WB') {
                     return job.district === currentDistrict;
                 }
@@ -147,11 +144,9 @@
             }
 
             filtered.forEach(job => {
-                // Determine styling
                 const cardClass = job.state === 'West Bengal' ? 'card-wb' : '';
                 const locationBadge = job.district && job.district !== 'All' ? `📍 ${job.district}` : '🇮🇳 All India';
                 
-                // Format Date
                 let displayDate = new Date(job.date).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' });
                 if (displayDate === 'Invalid Date') displayDate = "New";
 
@@ -163,9 +158,7 @@
                                     <span class="badge bg-light text-dark border">${locationBadge}</span>
                                     <span class="date-box">${displayDate}</span>
                                 </div>
-                                
                                 <h5 class="card-title fw-bold mb-3">${job.title}</h5>
-                                
                                 <div class="d-grid gap-2">
                                     <a href="${job.link}" target="_blank" class="btn btn-outline-success btn-sm">
                                         View Notification ↗
