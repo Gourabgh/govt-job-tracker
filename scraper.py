@@ -5,71 +5,80 @@ from datetime import datetime
 
 # --- CONFIGURATION ---
 ELIGIBLE_TERMS = [
-    "12th pass", "higher secondary", "ssc chsl", "ssc mts", "ssc gd", 
-    "constable", "data entry", "clerk", "railway", "group d", "alp", "technician"
+    "12th pass", "higher secondary", "ssc", "constable", "data entry", 
+    "clerk", "railway", "group d", "technician", "gd", "police", "mts"
 ]
 
-# 1. Blocklist (Clean up junk)
-BLOCKLIST = ["admit card", "result", "answer key", "cutoff", "syllabus", "graduate", "b.tech", "mba"]
+BLOCKLIST = ["admit card", "result", "answer key", "cutoff", "syllabus", "b.tech", "mba"]
 
-# 2. Helper to make Google News URLs
+# --- LOCATION DETECTOR ---
+def get_location(text):
+    text = text.lower()
+    
+    # 1. Check West Bengal Districts
+    wb_districts = ["nadia", "kolkata", "howrah", "hooghly", "north 24 parganas", "south 24 parganas", "murshidabad", "malda", "siliguri"]
+    for dist in wb_districts:
+        if dist in text:
+            return "West Bengal", dist.title() # Return State + District
+            
+    # 2. Check States
+    if "west bengal" in text or "wb " in text or "wbp" in text:
+        return "West Bengal", "All WB"
+    if "delhi" in text or "ncr" in text:
+        return "Delhi", "All"
+    if "maharashtra" in text or "mumbai" in text or "pune" in text:
+        return "Maharashtra", "All"
+    if "up " in text or "uttar pradesh" in text:
+        return "Uttar Pradesh", "All"
+    if "bihar" in text:
+        return "Bihar", "All"
+        
+    return "All India", "All" # Default if no location found
+
+# --- SEARCH FUNCTION ---
 def make_rss_url(query):
     base_url = "https://news.google.com/rss/search?q="
     return base_url + urllib.parse.quote(query) + "&hl=en-IN&gl=IN&ceid=IN:en"
 
-# --- SEARCH 1: ACTIVE JOBS (Apply Now) ---
-def get_active_jobs():
-    print("🔍 Searching for ACTIVE jobs...")
-    # Look for "Recruitment" or "Vacancy" on Govt sites
-    query = 'recruitment AND ({0}) AND (site:gov.in OR site:nic.in OR site:indianrailways.gov.in OR site:wbp.gov.in) when:2d'.format(' OR '.join(ELIGIBLE_TERMS))
+def get_jobs(is_upcoming=False):
+    print(f"Searching jobs (Upcoming: {is_upcoming})...")
     
-    return fetch_feed(make_rss_url(query), is_upcoming=False)
+    # Search Query
+    keywords = ' OR '.join(ELIGIBLE_TERMS)
+    if is_upcoming:
+        query = f'("calendar" OR "short notice" OR "upcoming") AND ({keywords}) AND (site:gov.in OR site:nic.in OR site:wbp.gov.in) when:7d'
+    else:
+        query = f'recruitment AND ({keywords}) AND (site:gov.in OR site:nic.in OR site:wbp.gov.in) when:2d'
 
-# --- SEARCH 2: UPCOMING JOBS (Coming Soon) ---
-def get_upcoming_jobs():
-    print("📅 Searching for UPCOMING notifications...")
-    # Look for "Calendar", "Short Notice", "Schedule" on Govt sites
-    # This finds official PDFs that say "Exam coming in 2 months"
-    query = '("calendar" OR "schedule" OR "short notice" OR "upcoming") AND ({0}) AND (site:gov.in OR site:nic.in OR site:ssc.nic.in OR site:rrbcdg.gov.in) when:7d'.format(' OR '.join(ELIGIBLE_TERMS))
-    
-    return fetch_feed(make_rss_url(query), is_upcoming=True)
-
-# --- SHARED FETCHER FUNCTION ---
-def fetch_feed(url, is_upcoming):
     jobs = []
     try:
-        feed = feedparser.parse(url)
+        feed = feedparser.parse(make_rss_url(query))
         for entry in feed.entries:
             title = entry.title.lower()
-            
-            if not any(blocked in title for blocked in BLOCKLIST):
-                # For Active: Must have "Recruitment/Apply"
-                # For Upcoming: We are looser because "Calendar 2026" is a valid title
-                if is_upcoming or ("recruitment" in title or "vacancy" in title or "apply" in title):
-                    
-                    jobs.append({
-                        "title": entry.title,
-                        "link": entry.link,
-                        "date": entry.published,
-                        "source": entry.source.title if 'source' in entry else "Official Govt Site"
-                    })
+            if not any(b in title for b in BLOCKLIST):
+                
+                # Detect Location
+                state, district = get_location(title)
+                
+                jobs.append({
+                    "title": entry.title,
+                    "link": entry.link,
+                    "date": entry.published,
+                    "source": entry.source.title if 'source' in entry else "Govt Site",
+                    "state": state,
+                    "district": district
+                })
     except Exception as e:
         print(f"Error: {e}")
     return jobs
 
 if __name__ == "__main__":
-    # Get both lists
-    active = get_active_jobs()
-    upcoming = get_upcoming_jobs()
-    
-    # Save as a Dictionary (Two sections)
     data = {
-        "active": active,
-        "upcoming": upcoming,
+        "active": get_jobs(is_upcoming=False),
+        "upcoming": get_jobs(is_upcoming=True),
         "last_updated": datetime.now().strftime("%d %b %Y, %I:%M %p")
     }
     
     with open("jobs.json", "w") as f:
         json.dump(data, f, indent=4)
-        
-    print(f"✅ Done! Active: {len(active)}, Upcoming: {len(upcoming)}")
+    print("✅ Jobs updated with Location tags.")
