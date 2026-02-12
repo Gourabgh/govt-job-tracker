@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Sarkari Naukri Tracker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #f4f6f9; }
+        .header { background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; padding: 40px 0; margin-bottom: 30px; }
+        .job-card { border-left: 5px solid #28a745; transition: transform 0.2s; }
+        .job-card:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        .badge-source { background-color: #e9ecef; color: #495057; border: 1px solid #ced4da; }
+    </style>
+</head>
+<body>
+
+    <div class="header text-center">
+        <h1>🇮🇳 My Government Job Tracker</h1>
+        <p>Tracking 12th Pass, Defense & Railway Jobs (Official Only)</p>
+        <small id="last-updated">Updating...</small>
+    </div>
+
+    <div class="container">
+        <div id="job-container" class="row">
+            <div class="col-12 text-center mt-5">
+                <div class="spinner-border text-primary" role="status"></div>
+                <p>Loading latest jobs...</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        fetch('jobs.json')
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('job-container');
+                container.innerHTML = ''; // Clear loading spinner
+
+                if(data.length === 0) {
+                    container.innerHTML = '<div class="alert alert-warning text-center">No new jobs found in the last 48 hours. Check back later!</div>';
+                    return;
+                }
+
+                data.forEach(job => {
+                    const card = `
+                        <div class="col-md-6 mb-4">
+                            <div class="card job-card shadow-sm h-100">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-start mb-2">
+                                        <span class="badge badge-source p-2">${job.source}</span>
+                                        <small class="text-muted text-end" style="font-size: 0.8rem;">${job.date}</small>
+                                    </div>
+                                    <h5 class="card-title fw-bold text-dark">${job.title}</h5>
+                                    <a href="${job.link}" target="_blank" class="btn btn-primary w-100 mt-3">View Notification</a>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    container.innerHTML += card;
+                });
+
+                document.getElementById('last-updated').innerText = "Last checked: " + new Date().toLocaleString();
+            })
+            .catch(error => {
+                document.getElementById('job-container').innerHTML = '<div class="alert alert-danger text-center">System is setting up. Please wait 10 minutes.</div>';
+            });
+    </script>
+</body>
+</html>
