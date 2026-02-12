@@ -6,91 +6,135 @@
     <title>My Sarkari Naukri Tracker</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body { background-color: #f4f6f9; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
-        .header { background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); color: white; padding: 40px 0; margin-bottom: 30px; }
+        body { background-color: #f4f6f9; font-family: sans-serif; }
+        .header { background: #003366; color: white; padding: 30px 0; margin-bottom: 20px; }
         
-        /* Green Card for Active Jobs */
-        .card-active { border-left: 5px solid #28a745; }
+        /* State Buttons */
+        .nav-pills .nav-link { color: #555; background: #fff; border: 1px solid #ddd; margin-right: 10px; border-radius: 20px; }
+        .nav-pills .nav-link.active { background-color: #28a745; color: white; border-color: #28a745; }
         
-        /* Orange Card for Upcoming Jobs */
-        .card-upcoming { border-left: 5px solid #fd7e14; background-color: #fff8f0; }
-        
-        .section-title { border-bottom: 3px solid #dee2e6; padding-bottom: 10px; margin-bottom: 20px; font-weight: bold; }
+        /* District Buttons (Hidden by default) */
+        #district-filter { display: none; background: #e9ecef; padding: 10px; border-radius: 10px; margin-bottom: 20px; }
+        .btn-district { font-size: 0.9rem; margin: 2px; }
+        .btn-district.active { background-color: #0056b3; color: white; }
+
+        .job-card { border-left: 5px solid #ddd; transition: 0.2s; }
+        .job-card:hover { transform: translateY(-3px); }
+        .card-wb { border-left-color: #ffc107; } /* Yellow for WB jobs */
+        .card-india { border-left-color: #007bff; } /* Blue for All India */
     </style>
 </head>
 <body>
 
     <div class="header text-center">
-        <h1>🇮🇳 My Government Job Tracker</h1>
-        <p>Real Official Notifications Only (12th Pass & Defense)</p>
-        <small id="last-updated" class="text-warning">Loading...</small>
+        <h2>🇮🇳 Job Tracker</h2>
+        <p>State-wise & District-wise Filter</p>
+        <small id="last-updated" class="text-warning">Updating...</small>
     </div>
 
     <div class="container">
         
-        <h3 class="section-title text-success">✅ Active Jobs (Apply Now)</h3>
-        <div id="active-container" class="row mb-5">
-            <div class="col-12 text-center"><div class="spinner-border text-success"></div></div>
+        <ul class="nav nav-pills justify-content-center mb-4" id="state-tabs">
+            <li class="nav-item"><a class="nav-link active" href="#" onclick="filterState('All India')">All India</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" onclick="filterState('West Bengal')">West Bengal</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" onclick="filterState('Delhi')">Delhi</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" onclick="filterState('Maharashtra')">Maharashtra</a></li>
+        </ul>
+
+        <div id="district-filter" class="text-center">
+            <strong>Select District: </strong>
+            <button class="btn btn-outline-secondary btn-sm btn-district active" onclick="filterDistrict('All WB')">All WB</button>
+            <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('Nadia')">Nadia</button>
+            <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('Kolkata')">Kolkata</button>
+            <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('Howrah')">Howrah</button>
+            <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('North 24 Parganas')">North 24 Pgs</button>
         </div>
 
-        <h3 class="section-title text-warning" style="color: #fd7e14 !important;">📅 Upcoming Notifications (Short Notices)</h3>
-        <div id="upcoming-container" class="row">
-            <div class="col-12 text-center"><div class="spinner-border text-warning"></div></div>
+        <h4 class="mb-3 text-secondary">📢 Latest Jobs</h4>
+        <div id="job-container" class="row">
+            <div class="col-12 text-center"><div class="spinner-border"></div></div>
         </div>
-
     </div>
 
     <script>
+        let allJobs = [];
+        let currentState = 'All India';
+        let currentDistrict = 'All WB';
+
         fetch('jobs.json')
             .then(response => response.json())
             .then(data => {
-                // Update Timestamp
+                // Combine active and upcoming for easier filtering
+                allJobs = [...data.active, ...data.upcoming];
                 document.getElementById('last-updated').innerText = "Last Updated: " + data.last_updated;
-
-                // Function to draw cards
-                function renderJobs(jobs, containerId, type) {
-                    const container = document.getElementById(containerId);
-                    container.innerHTML = ''; 
-
-                    if(jobs.length === 0) {
-                        container.innerHTML = '<div class="alert alert-secondary">No updates found in this section today.</div>';
-                        return;
-                    }
-
-                    jobs.forEach(job => {
-                        // Choose style based on type
-                        const cardClass = type === 'active' ? 'card-active' : 'card-upcoming';
-                        const btnClass = type === 'active' ? 'btn-success' : 'btn-warning';
-                        const btnText = type === 'active' ? 'Apply Now' : 'Read Notice';
-
-                        const html = `
-                            <div class="col-md-6 mb-3">
-                                <div class="card shadow-sm h-100 ${cardClass}">
-                                    <div class="card-body">
-                                        <div class="d-flex justify-content-between mb-2">
-                                            <span class="badge bg-secondary">${job.source}</span>
-                                            <small class="text-muted">${job.date.substring(0, 16)}</small>
-                                        </div>
-                                        <h5 class="card-title fw-bold">${job.title}</h5>
-                                        <a href="${job.link}" target="_blank" class="btn ${btnClass} btn-sm mt-2">${btnText}</a>
-                                    </div>
-                                </div>
-                            </div>
-                        `;
-                        container.innerHTML += html;
-                    });
-                }
-
-                // Render both sections
-                renderJobs(data.active, 'active-container', 'active');
-                renderJobs(data.upcoming, 'upcoming-container', 'upcoming');
-
-            })
-            .catch(error => {
-                console.error(error);
-                document.getElementById('active-container').innerHTML = '<div class="alert alert-danger">System updating... refresh in 1 minute.</div>';
-                document.getElementById('upcoming-container').innerHTML = '';
+                renderJobs();
             });
+
+        function filterState(state) {
+            currentState = state;
+            
+            // Highlight Tab
+            document.querySelectorAll('#state-tabs .nav-link').forEach(el => el.classList.remove('active'));
+            event.target.classList.add('active');
+
+            // Show/Hide District Filter
+            const distDiv = document.getElementById('district-filter');
+            if (state === 'West Bengal') {
+                distDiv.style.display = 'block';
+                currentDistrict = 'All WB'; // Reset district
+            } else {
+                distDiv.style.display = 'none';
+            }
+            renderJobs();
+        }
+
+        function filterDistrict(district) {
+            currentDistrict = district;
+            // Highlight Button
+            document.querySelectorAll('.btn-district').forEach(el => el.classList.remove('active', 'btn-primary'));
+            event.target.classList.add('active', 'btn-primary');
+            renderJobs();
+        }
+
+        function renderJobs() {
+            const container = document.getElementById('job-container');
+            container.innerHTML = '';
+
+            const filtered = allJobs.filter(job => {
+                // 1. Filter by State
+                if (currentState === 'All India') return true; // Show everything
+                if (job.state !== currentState) return false;
+
+                // 2. If West Bengal, Filter by District
+                if (currentState === 'West Bengal' && currentDistrict !== 'All WB') {
+                    return job.district === currentDistrict;
+                }
+                return true;
+            });
+
+            if (filtered.length === 0) {
+                container.innerHTML = '<div class="alert alert-warning text-center">No jobs found for this filter.</div>';
+                return;
+            }
+
+            filtered.forEach(job => {
+                const borderClass = job.state === 'West Bengal' ? 'card-wb' : 'card-india';
+                const card = `
+                    <div class="col-md-6 mb-3">
+                        <div class="card shadow-sm h-100 ${borderClass}">
+                            <div class="card-body">
+                                <span class="badge bg-secondary float-end">${job.state}</span>
+                                <h6 class="text-primary">${job.district !== 'All' ? job.district : ''}</h6>
+                                <h5 class="card-title fw-bold">${job.title}</h5>
+                                <small class="text-muted">${job.date.substring(0, 16)}</small>
+                                <a href="${job.link}" target="_blank" class="btn btn-outline-primary btn-sm w-100 mt-2">View</a>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                container.innerHTML += card;
+            });
+        }
     </script>
 </body>
 </html>
