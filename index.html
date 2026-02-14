@@ -3,205 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Sarkari Naukri Tracker</title>
+    <title>Official Job Tracker</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body { background-color: #f0f2f5; font-family: 'Segoe UI', sans-serif; padding-bottom: 50px; }
-        .header { background: linear-gradient(135deg, #0d47a1 0%, #1976d2 100%); color: white; padding: 30px 0; margin-bottom: 25px; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        body { background-color: #e3f2fd; font-family: 'Segoe UI', sans-serif; }
+        .header { background: #01579b; color: white; padding: 20px 0; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
         
-        /* State Tabs */
-        .nav-pills .nav-link { color: #555; background: white; border: 1px solid #ddd; margin: 0 5px; border-radius: 20px; padding: 8px 20px; font-weight: 600; }
-        .nav-pills .nav-link.active { background-color: #ff9800; color: white; border-color: #ff9800; }
+        .section-title { font-weight: bold; margin: 20px 0 10px 0; border-bottom: 2px solid #ccc; padding-bottom: 5px; }
+        .text-active { color: #2e7d32; border-color: #2e7d32; }
+        .text-upcoming { color: #ef6c00; border-color: #ef6c00; }
+
+        .job-card { border: none; border-radius: 8px; margin-bottom: 15px; background: white; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .card-active { border-left: 5px solid #2e7d32; }
+        .card-upcoming { border-left: 5px solid #ef6c00; background: #fff3e0; }
+
+        /* BUTTON STYLES */
+        .btn-official { background-color: #0277bd; color: white; width: 100%; font-weight: 600; border-radius: 5px; }
+        .btn-official:hover { background-color: #01579b; color: white; }
         
-        /* District Grid */
-        .district-container { 
-            display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; 
-            background: white; padding: 15px; border-radius: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); margin-bottom: 20px;
-        }
-        .btn-district { border-radius: 20px; font-size: 0.8rem; padding: 5px 12px; }
-        .btn-district.active { background-color: #00897b; color: white; border-color: #00897b; }
+        .btn-short { background-color: #ef6c00; color: white; width: 100%; font-weight: 600; border-radius: 5px; }
+        .btn-short:hover { background-color: #e65100; color: white; }
 
-        /* Section Headers */
-        .section-header { 
-            border-left: 5px solid; padding-left: 15px; margin: 30px 0 20px 0; font-weight: bold; font-size: 1.3rem; 
-        }
-        .head-active { border-color: #28a745; color: #2e7d32; }
-        .head-upcoming { border-color: #fd7e14; color: #e65100; }
-
-        /* Job Cards */
-        .job-card { border: none; border-radius: 12px; transition: 0.2s; background: white; overflow: hidden; }
-        .job-card:hover { transform: translateY(-3px); box-shadow: 0 10px 20px rgba(0,0,0,0.08); }
-        
-        .card-active { border-top: 4px solid #28a745; }
-        .card-upcoming { border-top: 4px solid #fd7e14; background-color: #fffbf7; }
-
-        .date-badge { background: #e3f2fd; color: #1565c0; padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: bold; }
-        .end-date { color: #c62828; font-weight: bold; font-size: 0.85rem; }
-
-        /* Buttons */
-        .btn-action-group { display: flex; gap: 10px; margin-top: 15px; }
-        .btn-apply { background-color: #28a745; color: white; flex: 1; border: none; font-weight: 600; font-size: 0.9rem; }
-        .btn-apply:hover { background-color: #218838; color: white; }
-        .btn-notify { border: 1px solid #1976d2; color: #1976d2; flex: 1; font-weight: 600; font-size: 0.9rem; background: transparent; }
-        .btn-notify:hover { background-color: #e3f2fd; }
-
+        .source-badge { font-size: 0.75rem; background: #eee; padding: 2px 6px; border-radius: 4px; color: #555; }
     </style>
 </head>
 <body>
 
     <div class="header text-center">
-        <h2>🇮🇳 Sarkari Job Tracker</h2>
-        <p class="mb-2" style="opacity: 0.9;">12th Pass | Defense | Railway</p>
-        <span class="badge bg-light text-dark" id="last-updated">Updating...</span>
+        <h3>🇮🇳 Official Job Notifications</h3>
+        <p class="mb-0 small">SSC | Army | BSF | WBP</p>
+        <small class="text-warning" id="last-updated">Updating...</small>
     </div>
 
     <div class="container">
         
-        <ul class="nav nav-pills justify-content-center mb-3" id="state-tabs">
-            <li class="nav-item"><a class="nav-link active" href="#" onclick="filterState('All India')">All India</a></li>
-            <li class="nav-item"><a class="nav-link" href="#" onclick="filterState('West Bengal')">West Bengal</a></li>
-        </ul>
-
-        <div id="district-filter" style="display:none;">
-            <p class="text-center text-muted small mb-1">Select District:</p>
-            <div class="district-container">
-                <button class="btn btn-outline-secondary btn-sm btn-district active" onclick="filterDistrict('All WB')">All WB</button>
-                <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('Nadia')">Nadia</button>
-                <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('Kolkata')">Kolkata</button>
-                <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('North 24 Parganas')">North 24 Pgs</button>
-                <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('South 24 Parganas')">South 24 Pgs</button>
-                <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('Howrah')">Howrah</button>
-                <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('Hooghly')">Hooghly</button>
-                <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('Murshidabad')">Murshidabad</button>
-                <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('Bankura')">Bankura</button>
-                <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('Birbhum')">Birbhum</button>
-                <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('Purba Bardhaman')">Purba Bardhaman</button>
-                <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('Paschim Bardhaman')">Paschim Bardhaman</button>
-                <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('Purba Medinipur')">Purba Medinipur</button>
-                <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('Paschim Medinipur')">Paschim Medinipur</button>
-                <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('Malda')">Malda</button>
-                <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('Jalpaiguri')">Jalpaiguri</button>
-                <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('Darjeeling')">Darjeeling</button>
-                <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('Uttar Dinajpur')">Uttar Dinajpur</button>
-                <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('Dakshin Dinajpur')">Dakshin Dinajpur</button>
-                <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('Cooch Behar')">Cooch Behar</button>
-                <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('Alipurduar')">Alipurduar</button>
-                <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('Jhargram')">Jhargram</button>
-                <button class="btn btn-outline-secondary btn-sm btn-district" onclick="filterDistrict('Purulia')">Purulia</button>
-            </div>
+        <h5 class="section-title text-active">✅ Active Applications</h5>
+        <div id="active-container" class="row">
+            <div class="col-12 text-center"><div class="spinner-border text-success"></div></div>
         </div>
 
-        <div id="active-section">
-            <div class="section-header head-active">🟢 Running Applications (Apply Now)</div>
-            <div id="active-container" class="row g-4">
-                <div class="col-12 text-center"><div class="spinner-border text-success"></div></div>
-            </div>
-        </div>
-
-        <div id="upcoming-section">
-            <div class="section-header head-upcoming">🟠 Upcoming Notifications</div>
-            <div id="upcoming-container" class="row g-4"></div>
-        </div>
+        <h5 class="section-title text-upcoming">📅 Upcoming / Short Notices</h5>
+        <div id="upcoming-container" class="row"></div>
 
     </div>
 
     <script>
-        let allData = { active: [], upcoming: [] };
-        let currentState = 'All India';
-        let currentDistrict = 'All WB';
+        fetch('jobs.json').then(res => res.json()).then(data => {
+            document.getElementById('last-updated').innerText = "Last Check: " + data.last_updated;
+            render(data.active, 'active-container', 'active');
+            render(data.upcoming, 'upcoming-container', 'upcoming');
+        });
 
-        fetch('jobs.json')
-            .then(response => response.json())
-            .then(data => {
-                allData = data;
-                document.getElementById('last-updated').innerText = "Last Updated: " + data.last_updated;
-                renderAll();
-            });
-
-        function filterState(state) {
-            currentState = state;
-            document.querySelectorAll('#state-tabs .nav-link').forEach(el => el.classList.remove('active'));
-            event.target.classList.add('active');
-            
-            const distDiv = document.getElementById('district-filter');
-            if (state === 'West Bengal') {
-                distDiv.style.display = 'block';
-                currentDistrict = 'All WB';
-            } else {
-                distDiv.style.display = 'none';
-            }
-            renderAll();
-        }
-
-        function filterDistrict(district) {
-            currentDistrict = district;
-            document.querySelectorAll('.btn-district').forEach(el => el.classList.remove('active', 'btn-secondary'));
-            event.target.classList.add('active', 'btn-secondary');
-            renderAll();
-        }
-
-        function renderAll() {
-            renderList(allData.active, 'active-container', 'active');
-            renderList(allData.upcoming, 'upcoming-container', 'upcoming');
-        }
-
-        function renderList(jobs, containerId, type) {
+        function render(jobs, containerId, type) {
             const container = document.getElementById(containerId);
             container.innerHTML = '';
 
-            const filtered = jobs.filter(job => {
-                if (currentState === 'All India') return true; 
-                if (job.state !== currentState) return false;
-                if (currentState === 'West Bengal' && currentDistrict !== 'All WB') {
-                    return job.district === currentDistrict;
-                }
-                return true;
-            });
-
-            if (filtered.length === 0) {
-                container.innerHTML = '<div class="col-12"><div class="alert alert-light border text-center text-muted">No jobs found here today.</div></div>';
+            if (jobs.length === 0) {
+                container.innerHTML = '<div class="alert alert-light text-center">No updates from official sites today.</div>';
                 return;
             }
 
-            filtered.forEach(job => {
-                let displayDate = new Date(job.date).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' });
-                if (displayDate === 'Invalid Date') displayDate = "New";
-
-                const locationBadge = job.district && job.district !== 'All' ? `📍 ${job.district}` : '🇮🇳 All India';
+            jobs.forEach(job => {
                 const cardClass = type === 'active' ? 'card-active' : 'card-upcoming';
-
+                
                 // BUTTON LOGIC
-                let buttons = '';
+                let buttonHtml = '';
                 if (type === 'active') {
-                    buttons = `
-                        <div class="btn-action-group">
-                            <a href="${job.link}" target="_blank" class="btn btn-apply">Apply Online</a>
-                            <a href="${job.link}" target="_blank" class="btn btn-notify">Notification</a>
-                        </div>
-                    `;
+                    buttonHtml = `<a href="${job.link}" target="_blank" class="btn btn-official btn-sm">Official Notification ⬇</a>`;
                 } else {
-                    buttons = `
-                        <a href="${job.link}" target="_blank" class="btn btn-outline-warning w-100 mt-3 text-dark fw-bold">Read News ↗</a>
-                    `;
+                    buttonHtml = `<a href="${job.link}" target="_blank" class="btn btn-short btn-sm">Short Notification 👁</a>`;
                 }
 
                 const html = `
                     <div class="col-md-6 col-lg-4">
-                        <div class="card job-card h-100 shadow-sm ${cardClass}">
+                        <div class="card job-card ${cardClass}">
                             <div class="card-body">
                                 <div class="d-flex justify-content-between mb-2">
-                                    <span class="badge bg-light text-dark border">${locationBadge}</span>
-                                    <span class="date-badge">${displayDate}</span>
+                                    <span class="source-badge">🌐 ${job.source}</span>
+                                    <small class="text-muted fw-bold">${job.date}</small>
                                 </div>
-                                
-                                <h5 class="card-title fw-bold text-dark">${job.title}</h5>
-                                
-                                <div class="mt-2 mb-2">
-                                    <small class="text-muted">Last Date:</small> 
-                                    <span class="end-date">${job.end_date}</span>
+                                <h6 class="card-title fw-bold">${job.title}</h6>
+                                <div class="mt-3">
+                                    ${buttonHtml}
                                 </div>
-
-                                ${buttons}
                             </div>
                         </div>
                     </div>
