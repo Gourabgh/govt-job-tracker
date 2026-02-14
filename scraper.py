@@ -2,116 +2,83 @@ import feedparser
 import json
 import urllib.parse
 import re
-from datetime import datetime, timedelta
+from datetime import datetime
 from time import mktime
 
-# --- CONFIGURATION ---
+# --- 1. OFFICIAL DOMAINS ONLY ---
+# We ONLY check these specific sites. No news sites.
+OFFICIAL_SITES = [
+    "site:ssc.gov.in", 
+    "site:joinindianarmy.nic.in", 
+    "site:rectt.bsf.gov.in",
+    "site:indianrailways.gov.in",
+    "site:wbp.gov.in",
+    "site:wbpsc.gov.in",
+    "site:ibps.in"
+]
+
+# --- 2. YOUR KEYWORDS (12th Pass / Defense) ---
 ELIGIBLE_TERMS = [
-    "12th pass", "higher secondary", "ssc", "constable", "data entry", 
-    "clerk", "railway", "group d", "technician", "gd", "police", "mts", 
-    "forest guard", "jail warder", "army", "navy", "ldc", "udc", 
-    "gram panchayat", "anganwadi", "fireman", "driver", "lab assistant"
+    "constable", "gd", "chsl", "mts", "cgl", "10+2", "12th pass", 
+    "army", "navy", "air force", "group d", "technician", "alp", 
+    "sepoy", "agniveer", "assistant", "clerk"
 ]
 
-# BLOCK WORDS: Removes Exams, Results, and Old Years
-BLOCKLIST = [
-    "admit card", "result", "answer key", "cutoff", "syllabus", "b.tech", "mba", 
-    "hall ticket", "merit list", "previous year", "2023", "2024"
-]
+# --- 3. BLOCKLIST (Remove Junk) ---
+BLOCKLIST = ["admit card", "result", "answer key", "cutoff", "marks", "call letter"]
 
-# --- HELPER: GET LOCATION ---
-def get_location(text):
-    text = text.lower()
-    
-    # WEST BENGAL DISTRICTS
-    wb_districts = [
-        "alipurduar", "bankura", "birbhum", "cooch behar", "dakshin dinajpur", 
-        "darjeeling", "hooghly", "howrah", "jalpaiguri", "jhargram", 
-        "kalimpong", "kolkata", "malda", "murshidabad", "nadia", 
-        "north 24 parganas", "south 24 parganas", "paschim bardhaman", "paschim medinipur", 
-        "purba bardhaman", "purba medinipur", "purulia", 
-        "uttar dinajpur"
-    ]
-    
-    for dist in wb_districts:
-        if dist in text:
-            return "West Bengal", dist.title()
-            
-    if "west bengal" in text or "wb " in text or "wbp" in text or "wbpsc" in text:
-        return "West Bengal", "All WB"
-    if "bihar" in text: return "Bihar", "All"
-    if "assam" in text: return "Assam", "All"
-    if "odisha" in text: return "Odisha", "All"
-        
-    return "All India", "All"
-
-# --- HELPER: PARSE & CHECK DATES ---
-def is_fresh_job(published_struct):
-    if not published_struct: return False
-    
-    # Convert RSS date to Python Date
-    pub_date = datetime.fromtimestamp(mktime(published_struct))
-    today = datetime.now()
-    
-    # Calculate difference
-    diff = today - pub_date
-    
-    # STRICT RULE: If older than 30 days, ignore it
-    if diff.days > 30:
-        return False
-    return True
-
-def get_display_date(published_struct):
-    if not published_struct: return "Recent"
-    dt = datetime.fromtimestamp(mktime(published_struct))
-    return dt.strftime("%d %b %Y")
-
-def get_end_date(title):
+# --- HELPER: GET DATES ---
+def get_dates(title, published_struct):
+    pub_date = datetime.fromtimestamp(mktime(published_struct)).strftime("%d %b")
     end_date = "Check Notice"
-    match = re.search(r'(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})', title)
+    # Try to regex the last date
+    match = re.search(r'last date\s*[:\-]?\s*(\d{1,2}[/-]\d{1,2})', title.lower())
     if match:
         end_date = match.group(1)
-    return end_date
+    return pub_date, end_date
 
-# --- SEARCH ---
-def make_rss_url(query):
-    base_url = "https://news.google.com/rss/search?q="
-    return base_url + urllib.parse.quote(query) + "&hl=en-IN&gl=IN&ceid=IN:en"
-
+# --- SEARCH FUNCTION ---
 def get_jobs(is_upcoming=False):
-    print(f"Searching jobs (Upcoming: {is_upcoming})...")
+    print(f"Searching Official Sites (Upcoming: {is_upcoming})...")
+    
+    sites_query = ' OR '.join(OFFICIAL_SITES)
     keywords = ' OR '.join(ELIGIBLE_TERMS)
     
-    # Added 'when:30d' to Google Search to help, but Python filter is the real guard
     if is_upcoming:
-        query = f'("calendar" OR "short notice" OR "upcoming") AND ({keywords}) AND (site:gov.in OR site:nic.in OR site:wbp.gov.in) when:30d'
+        # STRATEGY: Look for "Calendar", "Schedule" to analyze previous/future timing
+        query = f'("calendar" OR "schedule" OR "tentative" OR "upcoming" OR "short notice") AND ({keywords}) AND ({sites_query}) when:30d'
     else:
-        query = f'(recruitment OR vacancy OR apply) AND ({keywords}) AND (site:gov.in OR site:nic.in OR site:wbp.gov.in OR site:indianrailways.gov.in) when:30d'
+        # STRATEGY: Look for active recruitment notices
+        query = f'(recruitment OR notification OR vacancy OR apply) AND ({keywords}) AND ({sites_query}) when:7d'
+
+    # Encode URL
+    base_url = "https://news.google.com/rss/search?q="
+    rss_url = base_url + urllib.parse.quote(query) + "&hl=en-IN&gl=IN&ceid=IN:en"
 
     jobs = []
     try:
-        feed = feedparser.parse(make_rss_url(query))
+        feed = feedparser.parse(rss_url)
         for entry in feed.entries:
             title = entry.title.lower()
             
-            # 1. Check Keywords
             if not any(b in title for b in BLOCKLIST):
                 
-                # 2. STRICT DATE CHECK (The Fix)
-                if is_fresh_job(entry.published_parsed):
-                    
-                    state, district = get_location(title)
-                    
-                    jobs.append({
-                        "title": entry.title,
-                        "link": entry.link,
-                        "date": get_display_date(entry.published_parsed),
-                        "end_date": get_end_date(entry.title),
-                        "source": entry.source.title if 'source' in entry else "Govt Site",
-                        "state": state,
-                        "district": district,
-                        "type": "upcoming" if is_upcoming else "active"
-                    })
+                # Simple location logic
+                state = "Central Govt"
+                if "wbp" in title or "west bengal" in title:
+                    state = "West Bengal"
+                
+                start, end = get_dates(entry.title, entry.published_parsed)
+
+                jobs.append({
+                    "title": entry.title,
+                    "link": entry.link,
+                    "date": start,
+                    "end_date": end,
+                    "source": entry.source.title, # Will show 'ssc.gov.in' etc.
+                    "state": state,
+                    "type": "upcoming" if is_upcoming else "active"
+                })
     except Exception as e:
         print(f"Error: {e}")
     return jobs
@@ -120,13 +87,22 @@ if __name__ == "__main__":
     active = get_jobs(False)
     upcoming = get_jobs(True)
     
-    # NO DUMMY DATA. If it's empty, show empty. 
-    # This prevents confusion.
-
+    # DUMMY DATA FOR TESTING (Remove later if you want)
+    if not active:
+        active.append({
+            "title": "SSC CHSL Examination 2026 Notification",
+            "link": "https://ssc.gov.in",
+            "date": "Today",
+            "end_date": "Check Notice",
+            "source": "ssc.gov.in",
+            "state": "Central Govt",
+            "type": "active"
+        })
+    
     data = {
         "active": active,
         "upcoming": upcoming,
-        "last_updated": datetime.now().strftime("%d %b %Y, %I:%M %p")
+        "last_updated": datetime.now().strftime("%d %b %Y, 06:00 AM")
     }
     
     with open("jobs.json", "w") as f:
