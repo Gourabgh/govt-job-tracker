@@ -1,113 +1,112 @@
-import feedparser
+import requests
+from bs4 import BeautifulSoup
 import json
-import urllib.parse
-import re
 from datetime import datetime
-from time import mktime
 
-# --- 1. THE STRICT WHITELIST ---
-# We ONLY allow links that contain these specific official domain patterns.
-# If a link does not match these, it is thrown in the trash.
-OFFICIAL_DOMAINS = [
-    ".gov.in",           # Catches ssc.gov.in, wbp.gov.in, etc.
-    ".nic.in",           # Catches joinindianarmy.nic.in
-    "indianrailways.gov.in",
-    "ibps.in",           # Official Banking
-    "upsc.gov.in",
-    "drdo.gov.in",
-    "isro.gov.in"
-]
+HEADERS = {
+    "User-Agent": "Mozilla/5.0"
+}
 
-# --- 2. YOUR KEYWORDS ---
-ELIGIBLE_TERMS = [
-    "constable", "gd", "chsl", "mts", "cgl", "10+2", "12th pass", 
-    "army", "navy", "air force", "group d", "technician", "alp", 
-    "sepoy", "agniveer", "assistant", "clerk", "forest guard", 
-    "bsf", "crpf", "cisf", "ssb", "itbp"
-]
-
-# --- HELPER: IS THIS LINK OFFICIAL? ---
-def is_truly_official(link):
-    # This is the "Nuclear Filter"
-    # We check the actual URL. If it's not government, it's gone.
-    for domain in OFFICIAL_DOMAINS:
-        if domain in link:
-            return True
-    return False
-
-# --- HELPER: GET DATES ---
-def get_dates(title, published_struct):
-    pub_date = datetime.fromtimestamp(mktime(published_struct)).strftime("%d %b")
-    end_date = "Check PDF"
-    match = re.search(r'last date\s*[:\-]?\s*(\d{1,2}[/-]\d{1,2})', title.lower())
-    if match:
-        end_date = match.group(1)
-    return pub_date, end_date
-
-# --- SEARCH FUNCTION ---
-def get_jobs(is_upcoming=False):
-    print(f"Searching STRICT Official Sites (Upcoming: {is_upcoming})...")
-    
-    # We search specifically for site:gov.in
-    keywords = ' OR '.join(ELIGIBLE_TERMS)
-    sites = "site:gov.in OR site:nic.in OR site:ibps.in"
-    
-    if is_upcoming:
-        query = f'("calendar" OR "schedule" OR "short notice") AND ({keywords}) AND ({sites}) when:30d'
-    else:
-        query = f'(recruitment OR notification OR vacancy) AND ({keywords}) AND ({sites}) when:15d'
-
-    base_url = "https://news.google.com/rss/search?q="
-    rss_url = base_url + urllib.parse.quote(query) + "&hl=en-IN&gl=IN&ceid=IN:en"
-
+def scrape_ssc():
+    url = "https://ssc.nic.in/Portal/Notices"
     jobs = []
     try:
-        feed = feedparser.parse(rss_url)
-        for entry in feed.entries:
-            title = entry.title.lower()
-            link = entry.link.lower()
-            
-            # --- THE FILTER ---
-            # We ignore the 'source name' (because Adda247 lies).
-            # We look strictly at the LINK or the GUID.
-            if is_truly_official(link) or is_truly_official(entry.id):
-                
-                state = "Central Govt"
-                if "wbp" in title or "west bengal" in title or "wbpsc" in title:
-                    state = "West Bengal"
-                
-                start, end = get_dates(entry.title, entry.published_parsed)
+        r = requests.get(url, headers=HEADERS, timeout=10)
+        soup = BeautifulSoup(r.text, "lxml")
+
+        rows = soup.select("table tbody tr")
+        for row in rows[:10]:
+            cols = row.find_all("td")
+            if len(cols) >= 2:
+                title = cols[1].get_text(strip=True)
+                link_tag = cols[1].find("a")
+                if link_tag:
+                    link = "https://ssc.nic.in" + link_tag["href"]
+                else:
+                    link = url
 
                 jobs.append({
-                    "title": entry.title,
-                    "link": entry.link,
-                    "date": start,
-                    "end_date": end,
-                    "source": entry.source.title, 
-                    "state": state,
-                    "type": "upcoming" if is_upcoming else "active"
+                    "title": title,
+                    "link": link,
+                    "date": datetime.now().strftime("%d %b"),
+                    "end_date": "Check PDF",
+                    "source": "SSC",
+                    "state": "Central Govt"
                 })
-            else:
-                # Debugging: Print what we blocked to prove it works
-                # print(f"BLOCKED: {entry.source.title} - {link}")
-                pass
+    except:
+        pass
 
-    except Exception as e:
-        print(f"Error: {e}")
     return jobs
 
+
+def scrape_upsc():
+    url = "https://www.upsc.gov.in/recruitment/recruitment-advertisements"
+    jobs = []
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=10)
+        soup = BeautifulSoup(r.text, "lxml")
+
+        links = soup.select("div.view-content a")
+        for link in links[:8]:
+            title = link.get_text(strip=True)
+            href = link.get("href")
+
+            if href and "Advertisement" in title:
+                full_link = "https://www.upsc.gov.in" + href
+                jobs.append({
+                    "title": title,
+                    "link": full_link,
+                    "date": datetime.now().strftime("%d %b"),
+                    "end_date": "Check PDF",
+                    "source": "UPSC",
+                    "state": "Central Govt"
+                })
+    except:
+        pass
+
+    return jobs
+
+
+def scrape_army():
+    url = "https://joinindianarmy.nic.in"
+    jobs = []
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=10)
+        soup = BeautifulSoup(r.text, "lxml")
+
+        notices = soup.find_all("a")
+        for notice in notices[:10]:
+            text = notice.get_text(strip=True)
+            href = notice.get("href")
+
+            if text and href and ("agniveer" in text.lower() or "rally" in text.lower()):
+                full_link = url + "/" + href if not href.startswith("http") else href
+
+                jobs.append({
+                    "title": text,
+                    "link": full_link,
+                    "date": datetime.now().strftime("%d %b"),
+                    "end_date": "Check Website",
+                    "source": "Indian Army",
+                    "state": "Central Govt"
+                })
+    except:
+        pass
+
+    return jobs
+
+
 if __name__ == "__main__":
-    active = get_jobs(False)
-    upcoming = get_jobs(True)
-    
-    # If the list is empty, it means NO official government site posted today.
-    # We prefer an empty list over a fake list.
-    
+    active_jobs = []
+    active_jobs.extend(scrape_ssc())
+    active_jobs.extend(scrape_upsc())
+    active_jobs.extend(scrape_army())
+
     data = {
-        "active": active,
-        "upcoming": upcoming,
+        "active": active_jobs,
+        "upcoming": [],
         "last_updated": datetime.now().strftime("%d %b %Y, %I:%M %p")
     }
-    
+
     with open("jobs.json", "w") as f:
         json.dump(data, f, indent=4)
