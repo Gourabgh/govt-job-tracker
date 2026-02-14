@@ -2,8 +2,8 @@ name: Update Jobs
 
 on:
   schedule:
-    - cron: '0 * * * *' # Runs every hour
-  workflow_dispatch: # Allows manual button click
+    - cron: '30 0 * * *' # Runs at 06:00 AM IST (00:30 UTC)
+  workflow_dispatch:
 
 permissions:
   contents: write
